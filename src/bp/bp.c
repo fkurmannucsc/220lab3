@@ -58,6 +58,8 @@
 
 #include "prefetcher/pref.param.h"
 #include "prefetcher/fdip_new.h"
+//lab3 modified
+#include "bp/lab3_bp.h"
 
 /******************************************************************************/
 /* include the table of possible branch predictors */
@@ -262,7 +264,7 @@ void init_bp_data(uns8 proc_id, Bp_Data* bp_data) {
   uns ii;
   ASSERT(bp_data->proc_id, bp_data);
   memset(bp_data, 0, sizeof(Bp_Data));
-
+  init_perceptron_table();//lab3 modified add init
   bp_data->proc_id = proc_id;
   /* initialize branch predictor */
   bp_data->bp = &bp_table[BP_MECH];
@@ -500,7 +502,9 @@ Addr bp_predict_op(Bp_Data* bp_data, Op* op, uns br_num, Addr fetch_addr) {
         op->oracle_info.no_target = FALSE;
       } else {
         ASSERT(op->proc_id, !PERFECT_NT_BTB); //currently not supported
-        op->oracle_info.pred = bp_data->bp->pred_func(op);
+        //lab3 modified
+        // op->oracle_info.pred = bp_data->bp->pred_func(op);
+        op->oracle_info.pred = perceptron_predict(bp_data, op);
         op->oracle_info.pred_orig = op->oracle_info.pred;
         if(USE_LATE_BP) {
           op->oracle_info.late_pred = bp_data->late_bp->pred_func(op);
@@ -1052,7 +1056,9 @@ void bp_resolve_op(Bp_Data* bp_data, Op* op) {
   if(!UPDATE_BP_OFF_PATH && op->off_path) {
     return;
   }
-  bp_data->bp->update_func(op);
+  //lab3 modified
+  //bp_data->bp->update_func(op);
+  update_weights(bp_data, op, op->oracle_info.dir);
   if(USE_LATE_BP) {
     bp_data->late_bp->update_func(op);
   }
