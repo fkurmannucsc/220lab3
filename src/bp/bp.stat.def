@@ -52,7 +52,8 @@
 	RATIO.
 
 */
-
+// lab3 modified, just to see if perceptron method is taken
+DEF_STAT(  LAB3_DEBUG    , COUNT   , NO_RATIO       )
                                                                                           
 DEF_STAT(  BTB_ON_PATH_MISS         , DIST    , NO_RATIO       )
 DEF_STAT(  BTB_ON_PATH_HIT          , DIST    , NO_RATIO       )

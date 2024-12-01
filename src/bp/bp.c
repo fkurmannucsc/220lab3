@@ -268,6 +268,7 @@ void init_bp_data(uns8 proc_id, Bp_Data* bp_data) {
   
   // lab3 modified add init
   if (PERCEPTRON_BP) {
+    STAT_EVENT(bp_data->proc_id, LAB3_DEBUG);
     perceptron_init(); 
   }
   
@@ -512,6 +513,7 @@ Addr bp_predict_op(Bp_Data* bp_data, Op* op, uns br_num, Addr fetch_addr) {
         // lab3 modified
         if (PERCEPTRON_BP) {
           op->oracle_info.pred = perceptron_predict(bp_data, op);
+          // op->oracle_info.pred = bp_data->bp->pred_func(op);
         } else {
           op->oracle_info.pred = bp_data->bp->pred_func(op);
         }        
@@ -1070,6 +1072,7 @@ void bp_resolve_op(Bp_Data* bp_data, Op* op) {
   
   // lab3 modified
   if (PERCEPTRON_BP) {
+    // bp_data->bp->update_func(op);
     update_weights(bp_data, op, op->oracle_info.dir);
   } else {
     bp_data->bp->update_func(op);
