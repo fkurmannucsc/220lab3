@@ -1,0 +1,58 @@
+All experiments using the 500.pearlbench benchmark:
+
+"baseline": "" // Scarab default configurations
+"perceptron_0": 
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 32
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 256
+    #define PERCEPTRON_BP_THRESHOLD 32
+"perceptron_1": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 32
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 512
+    #define PERCEPTRON_BP_THRESHOLD 32
+"perceptron_2": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 32
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 1024
+    #define PERCEPTRON_BP_THRESHOLD 32
+"perceptron_3": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 32
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 2048
+    #define PERCEPTRON_BP_THRESHOLD 32
+"perceptron_4": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 24
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 512
+    #define PERCEPTRON_BP_THRESHOLD 32
+"perceptron_5": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 48
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 512
+    #define PERCEPTRON_BP_THRESHOLD 32
+"perceptron_6": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 32
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 512
+    #define PERCEPTRON_BP_THRESHOLD 24
+"perceptron_7": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 32
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 512
+    #define PERCEPTRON_BP_THRESHOLD 48
+"perceptron_8": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 32
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 4096
+    #define PERCEPTRON_BP_THRESHOLD 32
+"perceptron_9": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 32
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 8192
+    #define PERCEPTRON_BP_THRESHOLD 32
+"perceptron_10": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 64
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 8192
+    #define PERCEPTRON_BP_THRESHOLD 32

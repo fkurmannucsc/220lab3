@@ -49,10 +49,10 @@
 
 */
 // lab3 modified
-DEF_PARAM(  perceptron_bp                    , PERCEPTRON_BP                    , Flag    , Flag       , FALSE      ,        )
-DEF_PARAM(  perceptron_bp_ghr_bits           , PERCEPTRON_BP_GHR_BITS           , uns     , uns        , 32         ,        )
-DEF_PARAM(  perceptron_bp_num_perceptrons    , PERCEPTRON_BP_NUM_PERCEPTRONS    , uns     , uns        , 256        ,        )
-DEF_PARAM(  perceptron_bp_threshold          , PERCEPTRON_BP_THRESHOLD          , uns     , uns        , 32         ,        )
+// DEF_PARAM(  perceptron_bp                    , PERCEPTRON_BP                     , Flag   , Flag       , FALSE      ,        )
+// DEF_PARAM(  perceptron_bp_threshold          , PERCEPTRON_BP_THRESHOLD          , int     , int        , 32         ,        )
+// DEF_PARAM(  perceptron_bp_ghr_bits           , PERCEPTRON_BP_GHR_BITS           , int     , int        , 32         ,        )
+// DEF_PARAM(  perceptron_bp_num_perceptrons    , PERCEPTRON_BP_NUM_PERCEPTRONS    , int     , int        , 256        ,        )
 
 DEF_PARAM(  perfect_bp                , PERFECT_BP                , Flag    , Flag       , FALSE      ,        )
 DEF_PARAM(  perfect_btb               , PERFECT_BTB               , Flag    , Flag       , FALSE      ,        )

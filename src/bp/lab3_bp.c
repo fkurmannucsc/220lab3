@@ -1,37 +1,68 @@
-#include "lab3_bp.h"
+
 #include <stdlib.h>
 #include <stdio.h>
+
+#include "debug/debug_macros.h"
+#include "debug/debug_print.h"
+#include "globals/assert.h"
+#include "globals/global_defs.h"
+#include "globals/global_types.h"
+#include "globals/global_vars.h"
+#include "globals/utils.h"
+#include "isa/isa_macros.h"
+
+#include "bp//bp_conf.h"
+#include "bp/bp.h"
+#include "bp/bp_targ_mech.h"
+#include "bp/cbp_to_scarab.h"
+#include "bp/gshare.h"
+#include "bp/hybridgp.h"
+#include "bp/tagescl.h"
+#include "libs/cache_lib.h"
+#include "model.h"
+#include "thread.h"
+#include "uop_cache.h"
+#include "prefetcher/branch_misprediction_table.h"
+#include "icache_stage.h"
+
+#include "bp/bp.param.h"
+#include "core.param.h"
+#include "debug/debug.param.h"
+#include "frontend/pin_trace_fe.h"
+#include "statistics.h"
+#include "sim.h"
+
+#include "lab3_bp.h"
+
+#include "prefetcher/pref.param.h"
+#include "prefetcher/fdip_new.h"
+
+// Tried using params so that we could test more efficiently, this would have required dynamic memory allocation
+// alas, this proved impractical given the difficulty we had modifying the accepted parameters :-(.
+
+// static Lab3Perceptron* __attribute__((unused)) perceptron_table;
+// static int* __attribute__((unused)) global_history;
 
 static Lab3Perceptron __attribute__((unused)) perceptron_table[PERCEPTRON_BP_NUM_PERCEPTRONS];
 static int __attribute__((unused)) global_history[PERCEPTRON_BP_GHR_BITS] = {0};
 
-// Example malloc initialization
-
-// static Lab3Perceptron perceptron_table[PERCEPTRON_BP_NUM_PERCEPTRONS];
-// static int global_history[PERCEPTRON_BP_GHR_BITS] = {0};
-
-// static Bpc_Data*        bpc_data        = NULL;
-// static Lab3_Percep_Bpc_Data* percep_bpc_data = NULL;
-
-// uns ii;
-// percep_bpc_data          = (Lab3_Percep_Bpc_Data*)malloc(sizeof(Lab3_Percep_Bpc_Data));
-// percep_bpc_data->conf_pt = (Perceptron*)malloc(sizeof(Perceptron) *
-//                                                 (PERCEPTRON_BP_NUM_PERCEPTRONS));
-// for(ii = 0; ii < PERCEPTRON_BP_NUM_PERCEPTRONS; ii++) {
-//     uns jj;
-//     percep_bpc_data->conf_pt[ii].weights = (int32*)malloc(
-//         sizeof(int32) * (PERCEPTRON_BP_GHR_BITS + 1));
-//     for(jj = 0; jj < (PERCEPTRON_BP_GHR_BITS + 1); jj++) {
-//         percep_bpc_data->conf_pt[ii].weights[jj] = 0;
-//     }
-// }
-
 // Init
 void perceptron_init(void) {
+    // Dynamic allocation, needed for argument based implementation
+    // perceptron_table = (Lab3Perceptron*)malloc(
+    // sizeof(Lab3Perceptron) * (PERCEPTRON_BP_NUM_PERCEPTRONS));
+
+    // global_history = (int*)malloc(
+    // sizeof(int) * (PERCEPTRON_BP_GHR_BITS));
+    // for (int i = 0; i < PERCEPTRON_BP_GHR_BITS; i++) {
+    //     global_history[i] = 0;
+    // }
+
     for (int i = 0; i < PERCEPTRON_BP_NUM_PERCEPTRONS; i++) {
-        // Dynamic allocation, needed for argument based implementation, not tested yet
+        // Dynamic allocation, needed for argument based implementation
         // perceptron_table[i].weights = (int*)malloc(
         // sizeof(int) * (PERCEPTRON_BP_GHR_BITS));
+        
         for (int j = 0; j < PERCEPTRON_BP_GHR_BITS; j++) {
             perceptron_table[i].weights[j] = 0;
         }
