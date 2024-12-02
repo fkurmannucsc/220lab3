@@ -1,10 +1,10 @@
 Core, 0
-Cumulative Cycles, 8234293             
+Cumulative Cycles, 6216462             
 Cumulative Instructions, 10000002            
-Cumulative IPC, 1.21443
-Periodic Cycles, 8234293             
+Cumulative IPC, 1.60863
+Periodic Cycles, 6216462             
 Periodic Instructions, 10000002            
-Periodic IPC, 1.21443
+Periodic IPC, 1.60863
 
 DCACHE_PREF_HIT_count,             0
 DCACHE_PREF_HIT_total_count,             0
@@ -42,11 +42,11 @@ DEMAND_LAST_SCHEDULE_stddev,         -nan
 DEMAND_LAST_SCHEDULE_total_mean,         -nan
 DEMAND_LAST_SCHEDULE_total_stddev,         -nan
 
-SEND_MISS_REQ_QUEUE_count,         27269
-SEND_MISS_REQ_QUEUE_total_count,         27269
+SEND_MISS_REQ_QUEUE_count,         27297
+SEND_MISS_REQ_QUEUE_total_count,         27297
 
-L1_DATA_EVICT_count,           840
-L1_DATA_EVICT_total_count,           840
+L1_DATA_EVICT_count,           849
+L1_DATA_EVICT_total_count,           849
 
 STREAM_BUFFER_REQ_count,             0
 STREAM_BUFFER_REQ_total_count,             0
@@ -69,26 +69,26 @@ PREF_SEND_TO_MEM_REQ_FAIL_stddev,         -nan
 PREF_SEND_TO_MEM_REQ_FAIL_total_mean,         -nan
 PREF_SEND_TO_MEM_REQ_FAIL_total_stddev,         -nan
 
-HIT_TRAIN_STREAM_count,          4991
-HIT_TRAIN_STREAM_pct,       26.483
-HIT_TRAIN_STREAM_total_count,          4991
-HIT_TRAIN_STREAM_total_pct,       26.483
+HIT_TRAIN_STREAM_count,          5016
+HIT_TRAIN_STREAM_pct,       26.616
+HIT_TRAIN_STREAM_total_count,          5016
+HIT_TRAIN_STREAM_total_pct,       26.616
 
-MISS_TRAIN_STREAM_count,         13855
-MISS_TRAIN_STREAM_pct,       73.517
-MISS_TRAIN_STREAM_total_count,         13855
-MISS_TRAIN_STREAM_total_pct,       73.517
+MISS_TRAIN_STREAM_count,         13830
+MISS_TRAIN_STREAM_pct,       73.384
+MISS_TRAIN_STREAM_total_count,         13830
+MISS_TRAIN_STREAM_total_pct,       73.384
 MISS_TRAIN_STREAM_sum_count,         18846
 MISS_TRAIN_STREAM_sum_pct,      100.000
 MISS_TRAIN_STREAM_sum_total_count,         18846
 MISS_TRAIN_STREAM_sum_total_pct,      100.000
-MISS_TRAIN_STREAM_mean,         0.74
+MISS_TRAIN_STREAM_mean,         0.73
 MISS_TRAIN_STREAM_stddev,         0.67
-MISS_TRAIN_STREAM_total_mean,         0.74
+MISS_TRAIN_STREAM_total_mean,         0.73
 MISS_TRAIN_STREAM_total_stddev,         0.67
 
-STREAM_TRAIN_CREATE_count,          6900
-STREAM_TRAIN_CREATE_total_count,          6900
+STREAM_TRAIN_CREATE_count,          6891
+STREAM_TRAIN_CREATE_total_count,          6891
 
 MEM_REQ_MISS_HWP_PREF_Q_count,             0
 MEM_REQ_MISS_HWP_PREF_Q_pct,         -nan
@@ -237,13 +237,13 @@ TOUCH_L1_REPLACE_pct,        0.000
 TOUCH_L1_REPLACE_total_count,             0
 TOUCH_L1_REPLACE_total_pct,        0.000
 
-NO_TOUCH_L1_REPLACE_count,           840
+NO_TOUCH_L1_REPLACE_count,           849
 NO_TOUCH_L1_REPLACE_pct,      100.000
-NO_TOUCH_L1_REPLACE_total_count,           840
+NO_TOUCH_L1_REPLACE_total_count,           849
 NO_TOUCH_L1_REPLACE_total_pct,      100.000
-NO_TOUCH_L1_REPLACE_sum_count,           840
+NO_TOUCH_L1_REPLACE_sum_count,           849
 NO_TOUCH_L1_REPLACE_sum_pct,      100.000
-NO_TOUCH_L1_REPLACE_sum_total_count,           840
+NO_TOUCH_L1_REPLACE_sum_total_count,           849
 NO_TOUCH_L1_REPLACE_sum_total_pct,      100.000
 NO_TOUCH_L1_REPLACE_mean,         1.00
 NO_TOUCH_L1_REPLACE_stddev,         1.00
@@ -390,8 +390,8 @@ L2HIT_MEM_REQ_total_count,             0
 REMOVE_REDUNDANT_STREAM_STAT_count,             0
 REMOVE_REDUNDANT_STREAM_STAT_total_count,             0
 
-REPLACE_OLD_STREAM_count,          6884
-REPLACE_OLD_STREAM_total_count,          6884
+REPLACE_OLD_STREAM_count,          6875
+REPLACE_OLD_STREAM_total_count,          6875
 
 REQ_SEND_QUEUE_STALL_count,             0
 REQ_SEND_QUEUE_STALL_total_count,             0
@@ -399,30 +399,30 @@ REQ_SEND_QUEUE_STALL_total_count,             0
 STREAM_ENTER_RA_count,             0
 STREAM_ENTER_RA_total_count,             0
 
-CORE_STREAM_LENGTH_0_count,           203
-CORE_STREAM_LENGTH_0_pct,       15.579
-CORE_STREAM_LENGTH_0_total_count,           203
-CORE_STREAM_LENGTH_0_total_pct,       15.579
+CORE_STREAM_LENGTH_0_count,           204
+CORE_STREAM_LENGTH_0_pct,       15.704
+CORE_STREAM_LENGTH_0_total_count,           204
+CORE_STREAM_LENGTH_0_total_pct,       15.704
 
-CORE_STREAM_LENGTH_10_count,           707
-CORE_STREAM_LENGTH_10_pct,       54.259
-CORE_STREAM_LENGTH_10_total_count,           707
-CORE_STREAM_LENGTH_10_total_pct,       54.259
+CORE_STREAM_LENGTH_10_count,           702
+CORE_STREAM_LENGTH_10_pct,       54.042
+CORE_STREAM_LENGTH_10_total_count,           702
+CORE_STREAM_LENGTH_10_total_pct,       54.042
 
-CORE_STREAM_LENGTH_20_count,           354
-CORE_STREAM_LENGTH_20_pct,       27.168
-CORE_STREAM_LENGTH_20_total_count,           354
-CORE_STREAM_LENGTH_20_total_pct,       27.168
+CORE_STREAM_LENGTH_20_count,           351
+CORE_STREAM_LENGTH_20_pct,       27.021
+CORE_STREAM_LENGTH_20_total_count,           351
+CORE_STREAM_LENGTH_20_total_pct,       27.021
 
-CORE_STREAM_LENGTH_30_count,            34
-CORE_STREAM_LENGTH_30_pct,        2.609
-CORE_STREAM_LENGTH_30_total_count,            34
-CORE_STREAM_LENGTH_30_total_pct,        2.609
+CORE_STREAM_LENGTH_30_count,            37
+CORE_STREAM_LENGTH_30_pct,        2.848
+CORE_STREAM_LENGTH_30_total_count,            37
+CORE_STREAM_LENGTH_30_total_pct,        2.848
 
 CORE_STREAM_LENGTH_40_count,             5
-CORE_STREAM_LENGTH_40_pct,        0.384
+CORE_STREAM_LENGTH_40_pct,        0.385
 CORE_STREAM_LENGTH_40_total_count,             5
-CORE_STREAM_LENGTH_40_total_pct,        0.384
+CORE_STREAM_LENGTH_40_total_pct,        0.385
 
 CORE_STREAM_LENGTH_50_count,             0
 CORE_STREAM_LENGTH_50_pct,        0.000
@@ -453,39 +453,39 @@ CORE_STREAM_LENGTH_100_P_count,             0
 CORE_STREAM_LENGTH_100_P_pct,        0.000
 CORE_STREAM_LENGTH_100_P_total_count,             0
 CORE_STREAM_LENGTH_100_P_total_pct,        0.000
-CORE_STREAM_LENGTH_100_P_sum_count,          1303
+CORE_STREAM_LENGTH_100_P_sum_count,          1299
 CORE_STREAM_LENGTH_100_P_sum_pct,      100.000
-CORE_STREAM_LENGTH_100_P_sum_total_count,          1303
+CORE_STREAM_LENGTH_100_P_sum_total_count,          1299
 CORE_STREAM_LENGTH_100_P_sum_total_pct,      100.000
 CORE_STREAM_LENGTH_100_P_mean,         1.18
-CORE_STREAM_LENGTH_100_P_stddev,         0.56
+CORE_STREAM_LENGTH_100_P_stddev,         0.57
 CORE_STREAM_LENGTH_100_P_total_mean,         1.18
-CORE_STREAM_LENGTH_100_P_total_stddev,         0.56
+CORE_STREAM_LENGTH_100_P_total_stddev,         0.57
 
-CORE_CUM_STREAM_LENGTH_0_count,          1536
-CORE_CUM_STREAM_LENGTH_0_pct,        7.385
-CORE_CUM_STREAM_LENGTH_0_total_count,          1536
-CORE_CUM_STREAM_LENGTH_0_total_pct,        7.385
+CORE_CUM_STREAM_LENGTH_0_count,          1542
+CORE_CUM_STREAM_LENGTH_0_pct,        7.422
+CORE_CUM_STREAM_LENGTH_0_total_count,          1542
+CORE_CUM_STREAM_LENGTH_0_total_pct,        7.422
 
-CORE_CUM_STREAM_LENGTH_10_count,          9826
-CORE_CUM_STREAM_LENGTH_10_pct,       47.245
-CORE_CUM_STREAM_LENGTH_10_total_count,          9826
-CORE_CUM_STREAM_LENGTH_10_total_pct,       47.245
+CORE_CUM_STREAM_LENGTH_10_count,          9750
+CORE_CUM_STREAM_LENGTH_10_pct,       46.931
+CORE_CUM_STREAM_LENGTH_10_total_count,          9750
+CORE_CUM_STREAM_LENGTH_10_total_pct,       46.931
 
-CORE_CUM_STREAM_LENGTH_20_count,          8104
-CORE_CUM_STREAM_LENGTH_20_pct,       38.965
-CORE_CUM_STREAM_LENGTH_20_total_count,          8104
-CORE_CUM_STREAM_LENGTH_20_total_pct,       38.965
+CORE_CUM_STREAM_LENGTH_20_count,          8048
+CORE_CUM_STREAM_LENGTH_20_pct,       38.739
+CORE_CUM_STREAM_LENGTH_20_total_count,          8048
+CORE_CUM_STREAM_LENGTH_20_total_pct,       38.739
 
-CORE_CUM_STREAM_LENGTH_30_count,          1117
-CORE_CUM_STREAM_LENGTH_30_pct,        5.371
-CORE_CUM_STREAM_LENGTH_30_total_count,          1117
-CORE_CUM_STREAM_LENGTH_30_total_pct,        5.371
+CORE_CUM_STREAM_LENGTH_30_count,          1220
+CORE_CUM_STREAM_LENGTH_30_pct,        5.872
+CORE_CUM_STREAM_LENGTH_30_total_count,          1220
+CORE_CUM_STREAM_LENGTH_30_total_pct,        5.872
 
 CORE_CUM_STREAM_LENGTH_40_count,           215
-CORE_CUM_STREAM_LENGTH_40_pct,        1.034
+CORE_CUM_STREAM_LENGTH_40_pct,        1.035
 CORE_CUM_STREAM_LENGTH_40_total_count,           215
-CORE_CUM_STREAM_LENGTH_40_total_pct,        1.034
+CORE_CUM_STREAM_LENGTH_40_total_pct,        1.035
 
 CORE_CUM_STREAM_LENGTH_50_count,             0
 CORE_CUM_STREAM_LENGTH_50_pct,        0.000
@@ -516,29 +516,29 @@ CORE_CUM_STREAM_LENGTH_100_P_count,             0
 CORE_CUM_STREAM_LENGTH_100_P_pct,        0.000
 CORE_CUM_STREAM_LENGTH_100_P_total_count,             0
 CORE_CUM_STREAM_LENGTH_100_P_total_pct,        0.000
-CORE_CUM_STREAM_LENGTH_100_P_sum_count,         20798
+CORE_CUM_STREAM_LENGTH_100_P_sum_count,         20775
 CORE_CUM_STREAM_LENGTH_100_P_sum_pct,      100.000
-CORE_CUM_STREAM_LENGTH_100_P_sum_total_count,         20798
+CORE_CUM_STREAM_LENGTH_100_P_sum_total_count,         20775
 CORE_CUM_STREAM_LENGTH_100_P_sum_total_pct,      100.000
-CORE_CUM_STREAM_LENGTH_100_P_mean,         1.45
-CORE_CUM_STREAM_LENGTH_100_P_stddev,         0.64
-CORE_CUM_STREAM_LENGTH_100_P_total_mean,         1.45
-CORE_CUM_STREAM_LENGTH_100_P_total_stddev,         0.64
+CORE_CUM_STREAM_LENGTH_100_P_mean,         1.46
+CORE_CUM_STREAM_LENGTH_100_P_stddev,         0.65
+CORE_CUM_STREAM_LENGTH_100_P_total_mean,         1.46
+CORE_CUM_STREAM_LENGTH_100_P_total_stddev,         0.65
 
-CORE_STREAM_TRAIN_HITS_0_count,           971
-CORE_STREAM_TRAIN_HITS_0_pct,       74.520
-CORE_STREAM_TRAIN_HITS_0_total_count,           971
-CORE_STREAM_TRAIN_HITS_0_total_pct,       74.520
+CORE_STREAM_TRAIN_HITS_0_count,           962
+CORE_STREAM_TRAIN_HITS_0_pct,       74.057
+CORE_STREAM_TRAIN_HITS_0_total_count,           962
+CORE_STREAM_TRAIN_HITS_0_total_pct,       74.057
 
-CORE_STREAM_TRAIN_HITS_10_count,           330
-CORE_STREAM_TRAIN_HITS_10_pct,       25.326
-CORE_STREAM_TRAIN_HITS_10_total_count,           330
-CORE_STREAM_TRAIN_HITS_10_total_pct,       25.326
+CORE_STREAM_TRAIN_HITS_10_count,           335
+CORE_STREAM_TRAIN_HITS_10_pct,       25.789
+CORE_STREAM_TRAIN_HITS_10_total_count,           335
+CORE_STREAM_TRAIN_HITS_10_total_pct,       25.789
 
 CORE_STREAM_TRAIN_HITS_20_count,             2
-CORE_STREAM_TRAIN_HITS_20_pct,        0.153
+CORE_STREAM_TRAIN_HITS_20_pct,        0.154
 CORE_STREAM_TRAIN_HITS_20_total_count,             2
-CORE_STREAM_TRAIN_HITS_20_total_pct,        0.153
+CORE_STREAM_TRAIN_HITS_20_total_pct,        0.154
 
 CORE_STREAM_TRAIN_HITS_30_count,             0
 CORE_STREAM_TRAIN_HITS_30_pct,        0.000
@@ -579,24 +579,24 @@ CORE_STREAM_TRAIN_HITS_100_P_count,             0
 CORE_STREAM_TRAIN_HITS_100_P_pct,        0.000
 CORE_STREAM_TRAIN_HITS_100_P_total_count,             0
 CORE_STREAM_TRAIN_HITS_100_P_total_pct,        0.000
-CORE_STREAM_TRAIN_HITS_100_P_sum_count,          1303
+CORE_STREAM_TRAIN_HITS_100_P_sum_count,          1299
 CORE_STREAM_TRAIN_HITS_100_P_sum_pct,      100.000
-CORE_STREAM_TRAIN_HITS_100_P_sum_total_count,          1303
+CORE_STREAM_TRAIN_HITS_100_P_sum_total_count,          1299
 CORE_STREAM_TRAIN_HITS_100_P_sum_total_pct,      100.000
 CORE_STREAM_TRAIN_HITS_100_P_mean,         0.26
 CORE_STREAM_TRAIN_HITS_100_P_stddev,         0.38
 CORE_STREAM_TRAIN_HITS_100_P_total_mean,         0.26
 CORE_STREAM_TRAIN_HITS_100_P_total_stddev,         0.38
 
-CORE_CUM_STREAM_TRAIN_HITS_0_count,          6142
-CORE_CUM_STREAM_TRAIN_HITS_0_pct,       60.269
-CORE_CUM_STREAM_TRAIN_HITS_0_total_count,          6142
-CORE_CUM_STREAM_TRAIN_HITS_0_total_pct,       60.269
+CORE_CUM_STREAM_TRAIN_HITS_0_count,          6086
+CORE_CUM_STREAM_TRAIN_HITS_0_pct,       59.667
+CORE_CUM_STREAM_TRAIN_HITS_0_total_count,          6086
+CORE_CUM_STREAM_TRAIN_HITS_0_total_pct,       59.667
 
-CORE_CUM_STREAM_TRAIN_HITS_10_count,          4007
-CORE_CUM_STREAM_TRAIN_HITS_10_pct,       39.319
-CORE_CUM_STREAM_TRAIN_HITS_10_total_count,          4007
-CORE_CUM_STREAM_TRAIN_HITS_10_total_pct,       39.319
+CORE_CUM_STREAM_TRAIN_HITS_10_count,          4072
+CORE_CUM_STREAM_TRAIN_HITS_10_pct,       39.922
+CORE_CUM_STREAM_TRAIN_HITS_10_total_count,          4072
+CORE_CUM_STREAM_TRAIN_HITS_10_total_pct,       39.922
 
 CORE_CUM_STREAM_TRAIN_HITS_20_count,            42
 CORE_CUM_STREAM_TRAIN_HITS_20_pct,        0.412
@@ -642,17 +642,17 @@ CORE_CUM_STREAM_TRAIN_HITS_100_P_count,             0
 CORE_CUM_STREAM_TRAIN_HITS_100_P_pct,        0.000
 CORE_CUM_STREAM_TRAIN_HITS_100_P_total_count,             0
 CORE_CUM_STREAM_TRAIN_HITS_100_P_total_pct,        0.000
-CORE_CUM_STREAM_TRAIN_HITS_100_P_sum_count,         10191
+CORE_CUM_STREAM_TRAIN_HITS_100_P_sum_count,         10200
 CORE_CUM_STREAM_TRAIN_HITS_100_P_sum_pct,      100.000
-CORE_CUM_STREAM_TRAIN_HITS_100_P_sum_total_count,         10191
+CORE_CUM_STREAM_TRAIN_HITS_100_P_sum_total_count,         10200
 CORE_CUM_STREAM_TRAIN_HITS_100_P_sum_total_pct,      100.000
-CORE_CUM_STREAM_TRAIN_HITS_100_P_mean,         0.40
+CORE_CUM_STREAM_TRAIN_HITS_100_P_mean,         0.41
 CORE_CUM_STREAM_TRAIN_HITS_100_P_stddev,         0.39
-CORE_CUM_STREAM_TRAIN_HITS_100_P_total_mean,         0.40
+CORE_CUM_STREAM_TRAIN_HITS_100_P_total_mean,         0.41
 CORE_CUM_STREAM_TRAIN_HITS_100_P_total_stddev,         0.39
 
-CORE_STREAM_TRAIN_CREATE_count,          6900
-CORE_STREAM_TRAIN_CREATE_total_count,          6900
+CORE_STREAM_TRAIN_CREATE_count,          6891
+CORE_STREAM_TRAIN_CREATE_total_count,          6891
 
 
 

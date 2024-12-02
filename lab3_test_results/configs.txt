@@ -23,36 +23,36 @@ All experiments using the 500.pearlbench benchmark:
     #define PERCEPTRON_BP_THRESHOLD 32
 "perceptron_4": ""
     #define PERCEPTRON_BP TRUE
-    #define PERCEPTRON_BP_GHR_BITS 24
-    #define PERCEPTRON_BP_NUM_PERCEPTRONS 512
-    #define PERCEPTRON_BP_THRESHOLD 32
-"perceptron_5": ""
-    #define PERCEPTRON_BP TRUE
-    #define PERCEPTRON_BP_GHR_BITS 48
-    #define PERCEPTRON_BP_NUM_PERCEPTRONS 512
-    #define PERCEPTRON_BP_THRESHOLD 32
-"perceptron_6": ""
-    #define PERCEPTRON_BP TRUE
-    #define PERCEPTRON_BP_GHR_BITS 32
-    #define PERCEPTRON_BP_NUM_PERCEPTRONS 512
-    #define PERCEPTRON_BP_THRESHOLD 24
-"perceptron_7": ""
-    #define PERCEPTRON_BP TRUE
-    #define PERCEPTRON_BP_GHR_BITS 32
-    #define PERCEPTRON_BP_NUM_PERCEPTRONS 512
-    #define PERCEPTRON_BP_THRESHOLD 48
-"perceptron_8": ""
-    #define PERCEPTRON_BP TRUE
     #define PERCEPTRON_BP_GHR_BITS 32
     #define PERCEPTRON_BP_NUM_PERCEPTRONS 4096
     #define PERCEPTRON_BP_THRESHOLD 32
-"perceptron_9": ""
+"perceptron_5": ""
     #define PERCEPTRON_BP TRUE
     #define PERCEPTRON_BP_GHR_BITS 32
     #define PERCEPTRON_BP_NUM_PERCEPTRONS 8192
     #define PERCEPTRON_BP_THRESHOLD 32
-"perceptron_10": ""
+"perceptron_6": ""
     #define PERCEPTRON_BP TRUE
     #define PERCEPTRON_BP_GHR_BITS 64
     #define PERCEPTRON_BP_NUM_PERCEPTRONS 8192
     #define PERCEPTRON_BP_THRESHOLD 32
+"perceptron_7": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 24
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 512
+    #define PERCEPTRON_BP_THRESHOLD 32
+"perceptron_8": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 48
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 512
+    #define PERCEPTRON_BP_THRESHOLD 32
+"perceptron_9": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 32
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 512
+    #define PERCEPTRON_BP_THRESHOLD 24
+"perceptron_10": ""
+    #define PERCEPTRON_BP TRUE
+    #define PERCEPTRON_BP_GHR_BITS 32
+    #define PERCEPTRON_BP_NUM_PERCEPTRONS 512
+    #define PERCEPTRON_BP_THRESHOLD 48

@@ -1,49 +1,49 @@
 Core, 0
-Cumulative Cycles, 16487624            
+Cumulative Cycles, 12208997            
 Cumulative Instructions, 20000000            
-Cumulative IPC, 1.21303
-Periodic Cycles, 8196419             
-Periodic Instructions, 9999998             
-Periodic IPC, 1.22004
+Cumulative IPC, 1.63814
+Periodic Cycles, 5972212             
+Periodic Instructions, 9999995             
+Periodic IPC, 1.67442
 
 POWER_STATS_BEGIN_count,             0
 POWER_STATS_BEGIN_total_count,             0
 
-POWER_TIME_count, 2561380937500
-POWER_TIME_total_count, 5152382500000
+POWER_TIME_count, 1866316250000
+POWER_TIME_total_count, 3815311562500
 
-POWER_CYCLE_count,       8196419
-POWER_CYCLE_total_count,      16487624
+POWER_CYCLE_count,       5972212
+POWER_CYCLE_total_count,      12208997
 
-POWER_ITLB_ACCESS_count,       1252502
-POWER_ITLB_ACCESS_total_count,       2543971
+POWER_ITLB_ACCESS_count,        929904
+POWER_ITLB_ACCESS_total_count,       1907895
 
-POWER_DTLB_ACCESS_count,       2432174
-POWER_DTLB_ACCESS_total_count,       4849510
+POWER_DTLB_ACCESS_count,       2108271
+POWER_DTLB_ACCESS_total_count,       4240132
 
-POWER_ICACHE_ACCESS_count,       1252502
-POWER_ICACHE_ACCESS_total_count,       2543971
+POWER_ICACHE_ACCESS_count,        929904
+POWER_ICACHE_ACCESS_total_count,       1907895
 
-POWER_ICACHE_MISS_count,          1229
-POWER_ICACHE_MISS_total_count,          3251
+POWER_ICACHE_MISS_count,           858
+POWER_ICACHE_MISS_total_count,          2477
 
 POWER_BTB_READ_count,             0
 POWER_BTB_READ_total_count,             0
 
-POWER_BTB_WRITE_count,        167862
-POWER_BTB_WRITE_total_count,        338256
+POWER_BTB_WRITE_count,         69312
+POWER_BTB_WRITE_total_count,        146278
 
-POWER_ROB_READ_count,      17949784
-POWER_ROB_READ_total_count,      35972754
+POWER_ROB_READ_count,      14640915
+POWER_ROB_READ_total_count,      29626536
 
-POWER_ROB_WRITE_count,      17949784
-POWER_ROB_WRITE_total_count,      35972754
+POWER_ROB_WRITE_count,      14640915
+POWER_ROB_WRITE_total_count,      29626536
 
-POWER_RENAME_READ_count,      35899568
-POWER_RENAME_READ_total_count,      71945508
+POWER_RENAME_READ_count,      29281830
+POWER_RENAME_READ_total_count,      59253072
 
-POWER_RENAME_WRITE_count,      17949784
-POWER_RENAME_WRITE_total_count,      35972754
+POWER_RENAME_WRITE_count,      14640915
+POWER_RENAME_WRITE_total_count,      29626536
 
 POWER_FP_RENAME_READ_count,             0
 POWER_FP_RENAME_READ_total_count,             0
@@ -51,32 +51,32 @@ POWER_FP_RENAME_READ_total_count,             0
 POWER_FP_RENAME_WRITE_count,             0
 POWER_FP_RENAME_WRITE_total_count,             0
 
-POWER_FUNCTION_CALL_count,        242562
-POWER_FUNCTION_CALL_total_count,        485290
+POWER_FUNCTION_CALL_count,        213248
+POWER_FUNCTION_CALL_total_count,        427614
 
-POWER_INST_WINDOW_READ_count,      17949784
-POWER_INST_WINDOW_READ_total_count,      35972754
+POWER_INST_WINDOW_READ_count,      14640915
+POWER_INST_WINDOW_READ_total_count,      29626536
 
-POWER_INST_WINDOW_WRITE_count,      17949784
-POWER_INST_WINDOW_WRITE_total_count,      35972754
+POWER_INST_WINDOW_WRITE_count,      14640915
+POWER_INST_WINDOW_WRITE_total_count,      29626536
 
-POWER_INT_REGFILE_READ_count,      17417264
-POWER_INT_REGFILE_READ_total_count,      34866097
+POWER_INT_REGFILE_READ_count,      14810389
+POWER_INT_REGFILE_READ_total_count,      29863249
 
-POWER_INT_REGFILE_WRITE_count,      13294815
-POWER_INT_REGFILE_WRITE_total_count,      26645866
+POWER_INT_REGFILE_WRITE_count,      11053007
+POWER_INT_REGFILE_WRITE_total_count,      22310173
 
-POWER_IALU_ACCESS_count,      17937351
-POWER_IALU_ACCESS_total_count,      35947386
+POWER_IALU_ACCESS_count,      14627764
+POWER_IALU_ACCESS_total_count,      29600057
 
-POWER_CDB_IALU_ACCESS_count,      17937351
-POWER_CDB_IALU_ACCESS_total_count,      35947386
+POWER_CDB_IALU_ACCESS_count,      14627764
+POWER_CDB_IALU_ACCESS_total_count,      29600057
 
-POWER_MUL_ACCESS_count,         12433
-POWER_MUL_ACCESS_total_count,         25368
+POWER_MUL_ACCESS_count,         13151
+POWER_MUL_ACCESS_total_count,         26479
 
-POWER_CDB_MUL_ACCESS_count,         12433
-POWER_CDB_MUL_ACCESS_total_count,         25368
+POWER_CDB_MUL_ACCESS_count,         13151
+POWER_CDB_MUL_ACCESS_total_count,         26479
 
 POWER_FP_INST_WINDOW_WRITE_count,             0
 POWER_FP_INST_WINDOW_WRITE_total_count,             0
@@ -96,17 +96,17 @@ POWER_FPU_ACCESS_total_count,             0
 POWER_CDB_FPU_ACCESS_count,             0
 POWER_CDB_FPU_ACCESS_total_count,             0
 
-POWER_DCACHE_READ_ACCESS_count,       4558621
-POWER_DCACHE_READ_ACCESS_total_count,       9134257
+POWER_DCACHE_READ_ACCESS_count,       3834086
+POWER_DCACHE_READ_ACCESS_total_count,       7742798
 
-POWER_DCACHE_WRITE_ACCESS_count,       2348320
-POWER_DCACHE_WRITE_ACCESS_total_count,       4684028
+POWER_DCACHE_WRITE_ACCESS_count,       2079745
+POWER_DCACHE_WRITE_ACCESS_total_count,       4179403
 
-POWER_DCACHE_READ_MISS_count,         60743
-POWER_DCACHE_READ_MISS_total_count,        120018
+POWER_DCACHE_READ_MISS_count,         42232
+POWER_DCACHE_READ_MISS_total_count,         85223
 
-POWER_DCACHE_WRITE_MISS_count,             0
-POWER_DCACHE_WRITE_MISS_total_count,            59
+POWER_DCACHE_WRITE_MISS_count,             1
+POWER_DCACHE_WRITE_MISS_total_count,            61
 
 POWER_MLC_READ_ACCESS_count,             0
 POWER_MLC_READ_ACCESS_total_count,             0
@@ -120,14 +120,14 @@ POWER_MLC_READ_MISS_total_count,             0
 POWER_MLC_WRITE_MISS_count,             0
 POWER_MLC_WRITE_MISS_total_count,             0
 
-POWER_LLC_READ_ACCESS_count,         28537
-POWER_LLC_READ_ACCESS_total_count,         59023
+POWER_LLC_READ_ACCESS_count,         28544
+POWER_LLC_READ_ACCESS_total_count,         59017
 
 POWER_LLC_WRITE_ACCESS_count,           670
-POWER_LLC_WRITE_ACCESS_total_count,          1073
+POWER_LLC_WRITE_ACCESS_total_count,          1075
 
-POWER_LLC_READ_MISS_count,         24873
-POWER_LLC_READ_MISS_total_count,         52170
+POWER_LLC_READ_MISS_count,         24900
+POWER_LLC_READ_MISS_total_count,         52181
 
 POWER_LLC_WRITE_MISS_count,             0
 POWER_LLC_WRITE_MISS_total_count,             0
@@ -141,8 +141,8 @@ POWER_MEMORY_READ_ACCESS_total_count,             0
 POWER_MEMORY_WRITE_ACCESS_count,             0
 POWER_MEMORY_WRITE_ACCESS_total_count,             0
 
-POWER_INST_WINDOW_WAKEUP_ACCESS_count,      17949784
-POWER_INST_WINDOW_WAKEUP_ACCESS_total_count,      35972754
+POWER_INST_WINDOW_WAKEUP_ACCESS_count,      14640915
+POWER_INST_WINDOW_WAKEUP_ACCESS_total_count,      29626536
 
 POWER_FP_INST_WINDOW_WAKEUP_ACCESS_count,             0
 POWER_FP_INST_WINDOW_WAKEUP_ACCESS_total_count,             0
@@ -171,56 +171,56 @@ POWER_L2DIREC_READ_MISS_total_count,             0
 POWER_L2DIREC_WRITE_MISS_count,             0
 POWER_L2DIREC_WRITE_MISS_total_count,             0
 
-POWER_MEMORY_CTRL_ACCESS_count,         25079
-POWER_MEMORY_CTRL_ACCESS_total_count,         52377
+POWER_MEMORY_CTRL_ACCESS_count,         25106
+POWER_MEMORY_CTRL_ACCESS_total_count,         52387
 
-POWER_MEMORY_CTRL_READ_count,         24873
-POWER_MEMORY_CTRL_READ_total_count,         52170
+POWER_MEMORY_CTRL_READ_count,         24900
+POWER_MEMORY_CTRL_READ_total_count,         52181
 
 POWER_MEMORY_CTRL_WRITE_count,           206
-POWER_MEMORY_CTRL_WRITE_total_count,           207
+POWER_MEMORY_CTRL_WRITE_total_count,           206
 
-POWER_OP_count,      17949784
-POWER_OP_total_count,      35972754
+POWER_OP_count,      14640915
+POWER_OP_total_count,      29626536
 
-POWER_INT_OP_count,      16781452
-POWER_INT_OP_total_count,      33608184
+POWER_INT_OP_count,      14135535
+POWER_INT_OP_total_count,      28503910
 
-POWER_FP_OP_count,            50
-POWER_FP_OP_total_count,           161
+POWER_FP_OP_count,            36
+POWER_FP_OP_total_count,           182
 
-POWER_LD_OP_count,       4684888
-POWER_LD_OP_total_count,       9389743
+POWER_LD_OP_count,       3893702
+POWER_LD_OP_total_count,       7867103
 
-POWER_ST_OP_count,       2432174
-POWER_ST_OP_total_count,       4849510
+POWER_ST_OP_count,       2108271
+POWER_ST_OP_total_count,       4240132
 
-POWER_BRANCH_MISPREDICT_count,        167862
-POWER_BRANCH_MISPREDICT_total_count,        338256
+POWER_BRANCH_MISPREDICT_count,         69312
+POWER_BRANCH_MISPREDICT_total_count,        146278
 
-POWER_COMMITTED_OP_count,      12205432
+POWER_COMMITTED_OP_count,      12205409
 POWER_COMMITTED_OP_total_count,      24409828
 
-POWER_COMMITTED_INT_OP_count,      12020263
+POWER_COMMITTED_INT_OP_count,      12020240
 POWER_COMMITTED_INT_OP_total_count,      24039619
 
 POWER_COMMITTED_FP_OP_count,        185169
 POWER_COMMITTED_FP_OP_total_count,        370209
 
-POWER_BRANCH_OP_count,       2609054
-POWER_BRANCH_OP_total_count,       5233976
+POWER_BRANCH_OP_count,       2249616
+POWER_BRANCH_OP_total_count,       4529865
 
-POWER_DRAM_PRECHARGE_count,          4895
-POWER_DRAM_PRECHARGE_total_count,         10194
+POWER_DRAM_PRECHARGE_count,          5149
+POWER_DRAM_PRECHARGE_total_count,         10711
 
-POWER_DRAM_ACTIVATE_count,          8413
-POWER_DRAM_ACTIVATE_total_count,         17278
+POWER_DRAM_ACTIVATE_count,          8041
+POWER_DRAM_ACTIVATE_total_count,         16604
 
-POWER_DRAM_READ_count,         24873
-POWER_DRAM_READ_total_count,         52170
+POWER_DRAM_READ_count,         24899
+POWER_DRAM_READ_total_count,         52180
 
-POWER_DRAM_WRITE_count,           196
-POWER_DRAM_WRITE_total_count,           196
+POWER_DRAM_WRITE_count,           197
+POWER_DRAM_WRITE_total_count,           197
 
 POWER_STATS_END_count,             0
 POWER_STATS_END_total_count,             0

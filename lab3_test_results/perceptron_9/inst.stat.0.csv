@@ -1,84 +1,84 @@
 Core, 0
-Cumulative Cycles, 11711950            
+Cumulative Cycles, 16204736            
 Cumulative Instructions, 20000000            
-Cumulative IPC, 1.70766
-Periodic Cycles, 5713436             
-Periodic Instructions, 9999996             
-Periodic IPC, 1.75026
+Cumulative IPC, 1.23421
+Periodic Cycles, 7970443             
+Periodic Instructions, 9999998             
+Periodic IPC, 1.25464
 
 ST_OP_INV_count,             0
 ST_OP_INV_pct,        0.000
 ST_OP_INV_total_count,             0
 ST_OP_INV_total_pct,        0.000
 
-ST_OP_NOP_count,       1949092
-ST_OP_NOP_pct,        8.044
-ST_OP_NOP_total_count,       4684023
-ST_OP_NOP_total_pct,        9.283
+ST_OP_NOP_count,       7644945
+ST_OP_NOP_pct,       18.204
+ST_OP_NOP_total_count,      15520075
+ST_OP_NOP_total_pct,       18.372
 
-ST_OP_CF_count,       3696301
-ST_OP_CF_pct,       15.255
-ST_OP_CF_total_count,       7627384
-ST_OP_CF_total_pct,       15.116
+ST_OP_CF_count,       5784900
+ST_OP_CF_pct,       13.775
+ST_OP_CF_total_count,      11632706
+ST_OP_CF_total_pct,       13.770
 
-ST_OP_MOV_count,       1410106
-ST_OP_MOV_pct,        5.820
-ST_OP_MOV_total_count,       2875386
-ST_OP_MOV_total_pct,        5.698
+ST_OP_MOV_count,       2383877
+ST_OP_MOV_pct,        5.677
+ST_OP_MOV_total_count,       4788123
+ST_OP_MOV_total_pct,        5.668
 
-ST_OP_CMOV_count,        100361
-ST_OP_CMOV_pct,        0.414
-ST_OP_CMOV_total_count,        207109
-ST_OP_CMOV_total_pct,        0.410
+ST_OP_CMOV_count,        227296
+ST_OP_CMOV_pct,        0.541
+ST_OP_CMOV_total_count,        453972
+ST_OP_CMOV_total_pct,        0.537
 
-ST_OP_LDA_count,        488559
-ST_OP_LDA_pct,        2.016
-ST_OP_LDA_total_count,       1000190
-ST_OP_LDA_total_pct,        1.982
+ST_OP_LDA_count,        881789
+ST_OP_LDA_pct,        2.100
+ST_OP_LDA_total_count,       1772330
+ST_OP_LDA_total_pct,        2.098
 
-ST_OP_ILD_count,       6020080
-ST_OP_ILD_pct,       24.846
-ST_OP_ILD_total_count,      12387186
-ST_OP_ILD_total_pct,       24.549
+ST_OP_ILD_count,       8992977
+ST_OP_ILD_pct,       21.414
+ST_OP_ILD_total_count,      18041778
+ST_OP_ILD_total_pct,       21.357
 
-ST_OP_IST_count,       3377476
-ST_OP_IST_pct,       13.939
-ST_OP_IST_total_count,       6885826
-ST_OP_IST_total_pct,       13.646
+ST_OP_IST_count,       5085159
+ST_OP_IST_pct,       12.109
+ST_OP_IST_total_count,      10198818
+ST_OP_IST_total_pct,       12.073
 
-ST_OP_IADD_count,       3453041
-ST_OP_IADD_pct,       14.251
-ST_OP_IADD_total_count,       7098392
-ST_OP_IADD_total_pct,       14.068
+ST_OP_IADD_count,       5113650
+ST_OP_IADD_pct,       12.177
+ST_OP_IADD_total_count,      10258717
+ST_OP_IADD_total_pct,       12.144
 
-ST_OP_IMUL_count,         23345
-ST_OP_IMUL_pct,        0.096
-ST_OP_IMUL_total_count,         48334
-ST_OP_IMUL_total_pct,        0.096
+ST_OP_IMUL_count,         24972
+ST_OP_IMUL_pct,        0.059
+ST_OP_IMUL_total_count,         50494
+ST_OP_IMUL_total_pct,        0.060
 
 ST_OP_IDIV_count,             0
 ST_OP_IDIV_pct,        0.000
 ST_OP_IDIV_total_count,             0
 ST_OP_IDIV_total_pct,        0.000
 
-ST_OP_ICMP_count,       1178888
-ST_OP_ICMP_pct,        4.865
-ST_OP_ICMP_total_count,       2429651
-ST_OP_ICMP_total_pct,        4.815
+ST_OP_ICMP_count,       1948576
+ST_OP_ICMP_pct,        4.640
+ST_OP_ICMP_total_count,       3915769
+ST_OP_ICMP_total_pct,        4.635
 
-ST_OP_LOGIC_count,       2484030
-ST_OP_LOGIC_pct,       10.252
-ST_OP_LOGIC_total_count,       5117353
-ST_OP_LOGIC_total_pct,       10.142
+ST_OP_LOGIC_count,       3838768
+ST_OP_LOGIC_pct,        9.141
+ST_OP_LOGIC_total_count,       7707521
+ST_OP_LOGIC_total_pct,        9.124
 
-ST_OP_SHIFT_count,         48485
-ST_OP_SHIFT_pct,        0.200
-ST_OP_SHIFT_total_count,         97613
-ST_OP_SHIFT_total_pct,        0.193
+ST_OP_SHIFT_count,         68486
+ST_OP_SHIFT_pct,        0.163
+ST_OP_SHIFT_total_count,        135624
+ST_OP_SHIFT_total_pct,        0.161
 
-ST_OP_FLD_count,            16
+ST_OP_FLD_count,            18
 ST_OP_FLD_pct,        0.000
-ST_OP_FLD_total_count,           159
+ST_OP_FLD_total_count,            85
 ST_OP_FLD_total_pct,        0.000
 
 ST_OP_FST_count,             0
@@ -131,9 +131,9 @@ ST_OP_SCATTER_pct,        0.000
 ST_OP_SCATTER_total_count,             0
 ST_OP_SCATTER_total_pct,        0.000
 
-ST_OP_PIPELINED_FAST_count,             8
+ST_OP_PIPELINED_FAST_count,             9
 ST_OP_PIPELINED_FAST_pct,        0.000
-ST_OP_PIPELINED_FAST_total_count,            79
+ST_OP_PIPELINED_FAST_total_count,            42
 ST_OP_PIPELINED_FAST_total_pct,        0.000
 
 ST_OP_PIPELINED_MEDIUM_count,             0
@@ -146,9 +146,9 @@ ST_OP_PIPELINED_SLOW_pct,        0.000
 ST_OP_PIPELINED_SLOW_total_count,             0
 ST_OP_PIPELINED_SLOW_total_pct,        0.000
 
-ST_OP_NOTPIPELINED_MEDIUM_count,             8
+ST_OP_NOTPIPELINED_MEDIUM_count,             6
 ST_OP_NOTPIPELINED_MEDIUM_pct,        0.000
-ST_OP_NOTPIPELINED_MEDIUM_total_count,            76
+ST_OP_NOTPIPELINED_MEDIUM_total_count,            36
 ST_OP_NOTPIPELINED_MEDIUM_total_pct,        0.000
 
 ST_OP_NOTPIPELINED_SLOW_count,             0
@@ -160,71 +160,71 @@ ST_OP_NOTPIPELINED_VERY_SLOW_count,             0
 ST_OP_NOTPIPELINED_VERY_SLOW_pct,        0.000
 ST_OP_NOTPIPELINED_VERY_SLOW_total_count,             0
 ST_OP_NOTPIPELINED_VERY_SLOW_total_pct,        0.000
-ST_OP_NOTPIPELINED_VERY_SLOW_sum_count,      24229796
+ST_OP_NOTPIPELINED_VERY_SLOW_sum_count,      41995428
 ST_OP_NOTPIPELINED_VERY_SLOW_sum_pct,      100.000
-ST_OP_NOTPIPELINED_VERY_SLOW_sum_total_count,      50458761
+ST_OP_NOTPIPELINED_VERY_SLOW_sum_total_count,      84476090
 ST_OP_NOTPIPELINED_VERY_SLOW_sum_total_pct,      100.000
-ST_OP_NOTPIPELINED_VERY_SLOW_mean,         6.08
-ST_OP_NOTPIPELINED_VERY_SLOW_stddev,         3.28
-ST_OP_NOTPIPELINED_VERY_SLOW_total_mean,         6.02
-ST_OP_NOTPIPELINED_VERY_SLOW_total_stddev,         3.31
+ST_OP_NOTPIPELINED_VERY_SLOW_mean,         5.49
+ST_OP_NOTPIPELINED_VERY_SLOW_stddev,         3.49
+ST_OP_NOTPIPELINED_VERY_SLOW_total_mean,         5.48
+ST_OP_NOTPIPELINED_VERY_SLOW_total_stddev,         3.50
 
-ST_NOT_CF_count,      20533495
-ST_NOT_CF_pct,       84.745
-ST_NOT_CF_total_count,      42831377
-ST_NOT_CF_total_pct,       84.884
+ST_NOT_CF_count,      36210528
+ST_NOT_CF_pct,       86.225
+ST_NOT_CF_total_count,      72843384
+ST_NOT_CF_total_pct,       86.230
 
-ST_CF_BR_count,        219856
-ST_CF_BR_pct,        0.907
-ST_CF_BR_total_count,        454746
-ST_CF_BR_total_pct,        0.901
+ST_CF_BR_count,        359640
+ST_CF_BR_pct,        0.856
+ST_CF_BR_total_count,        721861
+ST_CF_BR_total_pct,        0.855
 
-ST_CF_CBR_count,       2760897
-ST_CF_CBR_pct,       11.395
-ST_CF_CBR_total_count,       5701147
-ST_CF_CBR_total_pct,       11.299
+ST_CF_CBR_count,       4313988
+ST_CF_CBR_pct,       10.273
+ST_CF_CBR_total_count,       8678840
+ST_CF_CBR_total_pct,       10.274
 
-ST_CF_CALL_count,        146834
-ST_CF_CALL_pct,        0.606
-ST_CF_CALL_total_count,        300874
-ST_CF_CALL_total_pct,        0.596
+ST_CF_CALL_count,        215523
+ST_CF_CALL_pct,        0.513
+ST_CF_CALL_total_count,        434485
+ST_CF_CALL_total_pct,        0.514
 
-ST_CF_IBR_count,         84071
-ST_CF_IBR_pct,        0.347
-ST_CF_IBR_total_count,        172104
-ST_CF_IBR_total_pct,        0.341
+ST_CF_IBR_count,        189309
+ST_CF_IBR_pct,        0.451
+ST_CF_IBR_total_count,        379844
+ST_CF_IBR_total_pct,        0.450
 
-ST_CF_ICALL_count,        180154
-ST_CF_ICALL_pct,        0.744
-ST_CF_ICALL_total_count,        370140
-ST_CF_ICALL_total_pct,        0.734
+ST_CF_ICALL_count,        263349
+ST_CF_ICALL_pct,        0.627
+ST_CF_ICALL_total_count,        528625
+ST_CF_ICALL_total_pct,        0.626
 
 ST_CF_ICO_count,             0
 ST_CF_ICO_pct,        0.000
 ST_CF_ICO_total_count,             0
 ST_CF_ICO_total_pct,        0.000
 
-ST_CF_RET_count,        304489
-ST_CF_RET_pct,        1.257
-ST_CF_RET_total_count,        628373
-ST_CF_RET_total_pct,        1.245
+ST_CF_RET_count,        443091
+ST_CF_RET_pct,        1.055
+ST_CF_RET_total_count,        889051
+ST_CF_RET_total_pct,        1.052
 
 ST_CF_SYS_count,             0
 ST_CF_SYS_pct,        0.000
 ST_CF_SYS_total_count,             0
 ST_CF_SYS_total_pct,        0.000
-ST_CF_SYS_sum_count,      24229796
+ST_CF_SYS_sum_count,      41995428
 ST_CF_SYS_sum_pct,      100.000
-ST_CF_SYS_sum_total_count,      50458761
+ST_CF_SYS_sum_total_count,      84476090
 ST_CF_SYS_sum_total_pct,      100.000
-ST_CF_SYS_mean,         0.39
-ST_CF_SYS_stddev,         1.04
-ST_CF_SYS_total_mean,         0.39
-ST_CF_SYS_total_stddev,         1.04
+ST_CF_SYS_mean,         0.35
+ST_CF_SYS_stddev,         0.99
+ST_CF_SYS_total_mean,         0.35
+ST_CF_SYS_total_stddev,         0.99
 
-ST_BAR_NONE_count,      24229796
+ST_BAR_NONE_count,      41995428
 ST_BAR_NONE_pct,      100.000
-ST_BAR_NONE_total_count,      50458761
+ST_BAR_NONE_total_count,      84476090
 ST_BAR_NONE_total_pct,      100.000
 
 ST_BAR_FETCH_count,             0
@@ -241,29 +241,29 @@ ST_BAR_BOTH_count,             0
 ST_BAR_BOTH_pct,        0.000
 ST_BAR_BOTH_total_count,             0
 ST_BAR_BOTH_total_pct,        0.000
-ST_BAR_BOTH_sum_count,      24229796
+ST_BAR_BOTH_sum_count,      41995428
 ST_BAR_BOTH_sum_pct,      100.000
-ST_BAR_BOTH_sum_total_count,      50458761
+ST_BAR_BOTH_sum_total_count,      84476090
 ST_BAR_BOTH_sum_total_pct,      100.000
 ST_BAR_BOTH_mean,         0.00
 ST_BAR_BOTH_stddev,         0.00
 ST_BAR_BOTH_total_mean,         0.00
 ST_BAR_BOTH_total_stddev,         0.00
 
-ST_NOT_MEM_count,      14832224
-ST_NOT_MEM_pct,       61.215
-ST_NOT_MEM_total_count,      31185590
-ST_NOT_MEM_total_pct,       61.804
+ST_NOT_MEM_count,      27917274
+ST_NOT_MEM_pct,       66.477
+ST_NOT_MEM_total_count,      56235409
+ST_NOT_MEM_total_pct,       66.570
 
-ST_MEM_LD_count,       6020096
-ST_MEM_LD_pct,       24.846
-ST_MEM_LD_total_count,      12387345
-ST_MEM_LD_total_pct,       24.549
+ST_MEM_LD_count,       8992995
+ST_MEM_LD_pct,       21.414
+ST_MEM_LD_total_count,      18041863
+ST_MEM_LD_total_pct,       21.357
 
-ST_MEM_ST_count,       3377476
-ST_MEM_ST_pct,       13.939
-ST_MEM_ST_total_count,       6885826
-ST_MEM_ST_total_pct,       13.646
+ST_MEM_ST_count,       5085159
+ST_MEM_ST_pct,       12.109
+ST_MEM_ST_total_count,      10198818
+ST_MEM_ST_total_pct,       12.073
 
 ST_MEM_PF_count,             0
 ST_MEM_PF_pct,        0.000
@@ -279,29 +279,29 @@ ST_MEM_EVICT_count,             0
 ST_MEM_EVICT_pct,        0.000
 ST_MEM_EVICT_total_count,             0
 ST_MEM_EVICT_total_pct,        0.000
-ST_MEM_EVICT_sum_count,      24229796
+ST_MEM_EVICT_sum_count,      41995428
 ST_MEM_EVICT_sum_pct,      100.000
-ST_MEM_EVICT_sum_total_count,      50458761
+ST_MEM_EVICT_sum_total_count,      84476090
 ST_MEM_EVICT_sum_total_pct,      100.000
-ST_MEM_EVICT_mean,         0.53
-ST_MEM_EVICT_stddev,         0.60
-ST_MEM_EVICT_total_mean,         0.52
-ST_MEM_EVICT_total_stddev,         0.60
+ST_MEM_EVICT_mean,         0.46
+ST_MEM_EVICT_stddev,         0.59
+ST_MEM_EVICT_total_mean,         0.46
+ST_MEM_EVICT_total_stddev,         0.59
 
-ST_NOT_MEM_OFFPATH_count,       5653880
-ST_NOT_MEM_OFFPATH_pct,       59.039
-ST_NOT_MEM_OFFPATH_total_count,      13260357
-ST_NOT_MEM_OFFPATH_total_pct,       60.885
+ST_NOT_MEM_OFFPATH_count,      23422372
+ST_NOT_MEM_OFFPATH_pct,       69.178
+ST_NOT_MEM_OFFPATH_total_count,      49121047
+ST_NOT_MEM_OFFPATH_total_pct,       69.336
 
-ST_MEM_LD_OFFPATH_count,       2621501
-ST_MEM_LD_OFFPATH_pct,       27.374
-ST_MEM_LD_OFFPATH_total_count,       5716867
-ST_MEM_LD_OFFPATH_total_pct,       26.249
+ST_MEM_LD_OFFPATH_count,       6971734
+ST_MEM_LD_OFFPATH_pct,       20.591
+ST_MEM_LD_OFFPATH_total_count,      14540251
+ST_MEM_LD_OFFPATH_total_pct,       20.524
 
-ST_MEM_ST_OFFPATH_count,       1301122
-ST_MEM_ST_OFFPATH_pct,       13.587
-ST_MEM_ST_OFFPATH_total_count,       2802266
-ST_MEM_ST_OFFPATH_total_pct,       12.867
+ST_MEM_ST_OFFPATH_count,       3463918
+ST_MEM_ST_OFFPATH_pct,       10.231
+ST_MEM_ST_OFFPATH_total_count,       7183670
+ST_MEM_ST_OFFPATH_total_pct,       10.140
 
 ST_MEM_PF_OFFPATH_count,             0
 ST_MEM_PF_OFFPATH_pct,        0.000
@@ -317,48 +317,48 @@ ST_MEM_EVIC_OFFPATHT_count,             0
 ST_MEM_EVIC_OFFPATHT_pct,        0.000
 ST_MEM_EVIC_OFFPATHT_total_count,             0
 ST_MEM_EVIC_OFFPATHT_total_pct,        0.000
-ST_MEM_EVIC_OFFPATHT_sum_count,       9576503
+ST_MEM_EVIC_OFFPATHT_sum_count,      33858024
 ST_MEM_EVIC_OFFPATHT_sum_pct,      100.000
-ST_MEM_EVIC_OFFPATHT_sum_total_count,      21779490
+ST_MEM_EVIC_OFFPATHT_sum_total_count,      70844968
 ST_MEM_EVIC_OFFPATHT_sum_total_pct,      100.000
-ST_MEM_EVIC_OFFPATHT_mean,         0.55
-ST_MEM_EVIC_OFFPATHT_stddev,         0.59
-ST_MEM_EVIC_OFFPATHT_total_mean,         0.52
-ST_MEM_EVIC_OFFPATHT_total_stddev,         0.59
+ST_MEM_EVIC_OFFPATHT_mean,         0.41
+ST_MEM_EVIC_OFFPATHT_stddev,         0.57
+ST_MEM_EVIC_OFFPATHT_total_mean,         0.41
+ST_MEM_EVIC_OFFPATHT_total_stddev,         0.57
 
-ST_OP_ONPATH_count,      24229796
-ST_OP_ONPATH_total_count,      50458761
+ST_OP_ONPATH_count,      41995428
+ST_OP_ONPATH_total_count,      84476090
 
-ST_OP_OFFPATH_count,       9576503
-ST_OP_OFFPATH_total_count,      21779490
+ST_OP_OFFPATH_count,      33858024
+ST_OP_OFFPATH_total_count,      70844968
 
-ST_FAKE_OP_OFFPATH_count,        406282
-ST_FAKE_OP_OFFPATH_pct,        4.242
-ST_FAKE_OP_OFFPATH_total_count,       1742023
-ST_FAKE_OP_OFFPATH_total_pct,        7.998
+ST_FAKE_OP_OFFPATH_count,       7027228
+ST_FAKE_OP_OFFPATH_pct,       20.755
+ST_FAKE_OP_OFFPATH_total_count,      14917093
+ST_FAKE_OP_OFFPATH_total_pct,       21.056
 
-ST_NOT_FAKE_OP_OFFPATH_count,       9170221
-ST_NOT_FAKE_OP_OFFPATH_pct,       95.758
-ST_NOT_FAKE_OP_OFFPATH_total_count,      20037467
-ST_NOT_FAKE_OP_OFFPATH_total_pct,       92.002
-ST_NOT_FAKE_OP_OFFPATH_sum_count,       9576503
+ST_NOT_FAKE_OP_OFFPATH_count,      26830796
+ST_NOT_FAKE_OP_OFFPATH_pct,       79.245
+ST_NOT_FAKE_OP_OFFPATH_total_count,      55927875
+ST_NOT_FAKE_OP_OFFPATH_total_pct,       78.944
+ST_NOT_FAKE_OP_OFFPATH_sum_count,      33858024
 ST_NOT_FAKE_OP_OFFPATH_sum_pct,      100.000
-ST_NOT_FAKE_OP_OFFPATH_sum_total_count,      21779490
+ST_NOT_FAKE_OP_OFFPATH_sum_total_count,      70844968
 ST_NOT_FAKE_OP_OFFPATH_sum_total_pct,      100.000
-ST_NOT_FAKE_OP_OFFPATH_mean,         0.96
-ST_NOT_FAKE_OP_OFFPATH_stddev,         0.94
-ST_NOT_FAKE_OP_OFFPATH_total_mean,         0.92
-ST_NOT_FAKE_OP_OFFPATH_total_stddev,         0.89
+ST_NOT_FAKE_OP_OFFPATH_mean,         0.79
+ST_NOT_FAKE_OP_OFFPATH_stddev,         0.73
+ST_NOT_FAKE_OP_OFFPATH_total_mean,         0.79
+ST_NOT_FAKE_OP_OFFPATH_total_stddev,         0.73
 
-ST_FAKE_REASON_NOT_FAKE_count,       9170221
-ST_FAKE_REASON_NOT_FAKE_pct,       95.758
-ST_FAKE_REASON_NOT_FAKE_total_count,      20037467
-ST_FAKE_REASON_NOT_FAKE_total_pct,       92.002
+ST_FAKE_REASON_NOT_FAKE_count,      26830796
+ST_FAKE_REASON_NOT_FAKE_pct,       79.245
+ST_FAKE_REASON_NOT_FAKE_total_count,      55927875
+ST_FAKE_REASON_NOT_FAKE_total_pct,       78.944
 
-ST_FAKE_REASON_REDIRECT_TO_NOT_INSTRUMENTED_count,        406282
-ST_FAKE_REASON_REDIRECT_TO_NOT_INSTRUMENTED_pct,        4.242
-ST_FAKE_REASON_REDIRECT_TO_NOT_INSTRUMENTED_total_count,       1742023
-ST_FAKE_REASON_REDIRECT_TO_NOT_INSTRUMENTED_total_pct,        7.998
+ST_FAKE_REASON_REDIRECT_TO_NOT_INSTRUMENTED_count,       7027228
+ST_FAKE_REASON_REDIRECT_TO_NOT_INSTRUMENTED_pct,       20.755
+ST_FAKE_REASON_REDIRECT_TO_NOT_INSTRUMENTED_total_count,      14917093
+ST_FAKE_REASON_REDIRECT_TO_NOT_INSTRUMENTED_total_pct,       21.056
 
 ST_FAKE_REASON_RETURN_TO_NOT_INSTRUMENTED_count,             0
 ST_FAKE_REASON_RETURN_TO_NOT_INSTRUMENTED_pct,        0.000
@@ -379,20 +379,20 @@ ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_count,             0
 ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_pct,        0.000
 ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_total_count,             0
 ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_total_pct,        0.000
-ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_sum_count,       9576503
+ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_sum_count,      33858024
 ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_sum_pct,      100.000
-ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_sum_total_count,      21779490
+ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_sum_total_count,      70844968
 ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_sum_total_pct,      100.000
-ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_mean,         0.04
-ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_stddev,         0.20
-ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_total_mean,         0.08
-ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_total_stddev,         0.26
+ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_mean,         0.21
+ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_stddev,         0.36
+ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_total_mean,         0.21
+ST_FAKE_REASON_WRONG_PATH_STORE_TO_NEW_REGION_total_stddev,         0.36
 
-ST_INST_ONPATH_count,      20063404
-ST_INST_ONPATH_total_count,      41896900
+ST_INST_ONPATH_count,      36018496
+ST_INST_ONPATH_total_count,      72482206
 
-ST_INST_OFFPATH_count,       7846543
-ST_INST_OFFPATH_total_count,      18011293
+ST_INST_OFFPATH_count,      29174717
+ST_INST_OFFPATH_total_count,      61103335
 
 STATIC_PIN_NOP_count,             0
 STATIC_PIN_NOP_total_count,             0

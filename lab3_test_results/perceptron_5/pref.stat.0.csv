@@ -1,10 +1,10 @@
 Core, 0
-Cumulative Cycles, 16273005            
+Cumulative Cycles, 11711950            
 Cumulative Instructions, 20000000            
-Cumulative IPC, 1.22903
-Periodic Cycles, 7933435             
-Periodic Instructions, 9999998             
-Periodic IPC, 1.26049
+Cumulative IPC, 1.70766
+Periodic Cycles, 5713436             
+Periodic Instructions, 9999996             
+Periodic IPC, 1.75026
 
 PREF_DL0REQ_QUEUE_HIT_BY_DEMAND_count,             0
 PREF_DL0REQ_QUEUE_HIT_BY_DEMAND_total_count,             0
@@ -40,42 +40,42 @@ PREF_UMLC_REQ_SEND_QUEUE_STALL_count,             0
 PREF_UMLC_REQ_SEND_QUEUE_STALL_total_count,             0
 
 PREF_UL1REQ_SEND_QUEUE_STALL_count,             0
-PREF_UL1REQ_SEND_QUEUE_STALL_total_count,          1201
+PREF_UL1REQ_SEND_QUEUE_STALL_total_count,          1124
 
 PREF_UMLC_REQ_QUEUE_SENTREQ_count,             0
 PREF_UMLC_REQ_QUEUE_SENTREQ_total_count,             0
 
-PREF_UL1REQ_QUEUE_SENTREQ_count,          9717
-PREF_UL1REQ_QUEUE_SENTREQ_total_count,         19633
+PREF_UL1REQ_QUEUE_SENTREQ_count,          9719
+PREF_UL1REQ_QUEUE_SENTREQ_total_count,         19617
 
 PREF_NEWREQ_MATCHED_count,             1
-PREF_NEWREQ_MATCHED_total_count,             2
+PREF_NEWREQ_MATCHED_total_count,             3
 
 PREF_UMLC_REQ_QUEUE_MATCHED_REQ_count,             0
 PREF_UMLC_REQ_QUEUE_MATCHED_REQ_total_count,             0
 
 PREF_UL1REQ_QUEUE_MATCHED_REQ_count,            41
-PREF_UL1REQ_QUEUE_MATCHED_REQ_total_count,            85
+PREF_UL1REQ_QUEUE_MATCHED_REQ_total_count,            88
 
 PREF_DL0REQ_QUEUE_MATCHED_REQ_count,             0
 PREF_DL0REQ_QUEUE_MATCHED_REQ_total_count,             0
 
-L1_PREF_HIT_count,          2763
-L1_PREF_HIT_total_count,          5499
+L1_PREF_HIT_count,          2761
+L1_PREF_HIT_total_count,          5484
 
-L1_PREF_UNIQUE_HIT_count,          2728
-L1_PREF_UNIQUE_HIT_total_count,          5461
+L1_PREF_UNIQUE_HIT_count,          2726
+L1_PREF_UNIQUE_HIT_total_count,          5446
 
-L1_PREF_LATE_count,             1
-L1_PREF_LATE_total_count,             3
+L1_PREF_LATE_count,             4
+L1_PREF_LATE_total_count,             8
 
-L1_LATE_PREF_CYCLES_count,           606
-L1_LATE_PREF_CYCLES_total_count,           689
+L1_LATE_PREF_CYCLES_count,          2555
+L1_LATE_PREF_CYCLES_total_count,          4488
 
 L1_LATE_PREF_CYCLES_DIST_0_count,             0
 L1_LATE_PREF_CYCLES_DIST_0_pct,        0.000
-L1_LATE_PREF_CYCLES_DIST_0_total_count,             2
-L1_LATE_PREF_CYCLES_DIST_0_total_pct,       66.667
+L1_LATE_PREF_CYCLES_DIST_0_total_count,             1
+L1_LATE_PREF_CYCLES_DIST_0_total_pct,       12.500
 
 L1_LATE_PREF_CYCLES_DIST_100_count,             0
 L1_LATE_PREF_CYCLES_DIST_100_pct,        0.000
@@ -89,23 +89,23 @@ L1_LATE_PREF_CYCLES_DIST_200_total_pct,        0.000
 
 L1_LATE_PREF_CYCLES_DIST_300_count,             0
 L1_LATE_PREF_CYCLES_DIST_300_pct,        0.000
-L1_LATE_PREF_CYCLES_DIST_300_total_count,             0
-L1_LATE_PREF_CYCLES_DIST_300_total_pct,        0.000
+L1_LATE_PREF_CYCLES_DIST_300_total_count,             1
+L1_LATE_PREF_CYCLES_DIST_300_total_pct,       12.500
 
-L1_LATE_PREF_CYCLES_DIST_400_count,             0
-L1_LATE_PREF_CYCLES_DIST_400_pct,        0.000
-L1_LATE_PREF_CYCLES_DIST_400_total_count,             0
-L1_LATE_PREF_CYCLES_DIST_400_total_pct,        0.000
+L1_LATE_PREF_CYCLES_DIST_400_count,             3
+L1_LATE_PREF_CYCLES_DIST_400_pct,       75.000
+L1_LATE_PREF_CYCLES_DIST_400_total_count,             3
+L1_LATE_PREF_CYCLES_DIST_400_total_pct,       37.500
 
 L1_LATE_PREF_CYCLES_DIST_500_count,             0
 L1_LATE_PREF_CYCLES_DIST_500_pct,        0.000
-L1_LATE_PREF_CYCLES_DIST_500_total_count,             0
-L1_LATE_PREF_CYCLES_DIST_500_total_pct,        0.000
+L1_LATE_PREF_CYCLES_DIST_500_total_count,             1
+L1_LATE_PREF_CYCLES_DIST_500_total_pct,       12.500
 
-L1_LATE_PREF_CYCLES_DIST_600_count,             1
-L1_LATE_PREF_CYCLES_DIST_600_pct,      100.000
-L1_LATE_PREF_CYCLES_DIST_600_total_count,             1
-L1_LATE_PREF_CYCLES_DIST_600_total_pct,       33.333
+L1_LATE_PREF_CYCLES_DIST_600_count,             0
+L1_LATE_PREF_CYCLES_DIST_600_pct,        0.000
+L1_LATE_PREF_CYCLES_DIST_600_total_count,             0
+L1_LATE_PREF_CYCLES_DIST_600_total_pct,        0.000
 
 L1_LATE_PREF_CYCLES_DIST_700_count,             0
 L1_LATE_PREF_CYCLES_DIST_700_pct,        0.000
@@ -119,8 +119,8 @@ L1_LATE_PREF_CYCLES_DIST_800_total_pct,        0.000
 
 L1_LATE_PREF_CYCLES_DIST_900_count,             0
 L1_LATE_PREF_CYCLES_DIST_900_pct,        0.000
-L1_LATE_PREF_CYCLES_DIST_900_total_count,             0
-L1_LATE_PREF_CYCLES_DIST_900_total_pct,        0.000
+L1_LATE_PREF_CYCLES_DIST_900_total_count,             1
+L1_LATE_PREF_CYCLES_DIST_900_total_pct,       12.500
 
 L1_LATE_PREF_CYCLES_DIST_1000_count,             0
 L1_LATE_PREF_CYCLES_DIST_1000_pct,        0.000
@@ -132,10 +132,10 @@ L1_LATE_PREF_CYCLES_DIST_1100_pct,        0.000
 L1_LATE_PREF_CYCLES_DIST_1100_total_count,             0
 L1_LATE_PREF_CYCLES_DIST_1100_total_pct,        0.000
 
-L1_LATE_PREF_CYCLES_DIST_1200_count,             0
-L1_LATE_PREF_CYCLES_DIST_1200_pct,        0.000
-L1_LATE_PREF_CYCLES_DIST_1200_total_count,             0
-L1_LATE_PREF_CYCLES_DIST_1200_total_pct,        0.000
+L1_LATE_PREF_CYCLES_DIST_1200_count,             1
+L1_LATE_PREF_CYCLES_DIST_1200_pct,       25.000
+L1_LATE_PREF_CYCLES_DIST_1200_total_count,             1
+L1_LATE_PREF_CYCLES_DIST_1200_total_pct,       12.500
 
 L1_LATE_PREF_CYCLES_DIST_1300_count,             0
 L1_LATE_PREF_CYCLES_DIST_1300_pct,        0.000
@@ -176,20 +176,20 @@ L1_LATE_PREF_CYCLES_DIST_2000_count,             0
 L1_LATE_PREF_CYCLES_DIST_2000_pct,        0.000
 L1_LATE_PREF_CYCLES_DIST_2000_total_count,             0
 L1_LATE_PREF_CYCLES_DIST_2000_total_pct,        0.000
-L1_LATE_PREF_CYCLES_DIST_2000_sum_count,             1
+L1_LATE_PREF_CYCLES_DIST_2000_sum_count,             4
 L1_LATE_PREF_CYCLES_DIST_2000_sum_pct,      100.000
-L1_LATE_PREF_CYCLES_DIST_2000_sum_total_count,             3
+L1_LATE_PREF_CYCLES_DIST_2000_sum_total_count,             8
 L1_LATE_PREF_CYCLES_DIST_2000_sum_total_pct,      100.000
 L1_LATE_PREF_CYCLES_DIST_2000_mean,         6.00
-L1_LATE_PREF_CYCLES_DIST_2000_stddev,         -nan
-L1_LATE_PREF_CYCLES_DIST_2000_total_mean,         2.00
-L1_LATE_PREF_CYCLES_DIST_2000_total_stddev,         2.83
+L1_LATE_PREF_CYCLES_DIST_2000_stddev,         4.00
+L1_LATE_PREF_CYCLES_DIST_2000_total_mean,         5.12
+L1_LATE_PREF_CYCLES_DIST_2000_total_stddev,         3.18
 
-MLC_PREF_HIT_count,           762
-MLC_PREF_HIT_total_count,          1625
+MLC_PREF_HIT_count,           739
+MLC_PREF_HIT_total_count,          1600
 
 MLC_PREF_UNIQUE_HIT_count,             1
-MLC_PREF_UNIQUE_HIT_total_count,            51
+MLC_PREF_UNIQUE_HIT_total_count,            48
 
 MLC_PREF_LATE_count,             0
 MLC_PREF_LATE_total_count,             0
@@ -573,8 +573,8 @@ PREF_TIMELY_10_stddev,        12.73
 PREF_TIMELY_10_total_mean,         9.00
 PREF_TIMELY_10_total_stddev,        12.73
 
-PREF_UNUSED_EVICT_count,          4728
-PREF_UNUSED_EVICT_total_count,          6334
+PREF_UNUSED_EVICT_count,          4695
+PREF_UNUSED_EVICT_total_count,          6311
 
 PREF_REGION_SENT_count,             0
 PREF_REGION_SENT_total_count,             0
@@ -691,41 +691,41 @@ PREF_ACC4_LT_LP_stddev,         0.00
 PREF_ACC4_LT_LP_total_mean,        13.00
 PREF_ACC4_LT_LP_total_stddev,         0.00
 
-FDIP_DECIDE_PREF_ONPATH_count,       1563110
-FDIP_DECIDE_PREF_ONPATH_total_count,       3134818
+FDIP_DECIDE_PREF_ONPATH_count,       1501075
+FDIP_DECIDE_PREF_ONPATH_total_count,       3007762
 
-FDIP_DECIDE_PREF_OFFPATH_count,       5971042
-FDIP_DECIDE_PREF_OFFPATH_total_count,      12536176
+FDIP_DECIDE_PREF_OFFPATH_count,       2297068
+FDIP_DECIDE_PREF_OFFPATH_total_count,       4972804
 
-FDIP_NEW_PREFETCHES_ONPATH_count,          2202
-FDIP_NEW_PREFETCHES_ONPATH_total_count,          5027
+FDIP_NEW_PREFETCHES_ONPATH_count,          2342
+FDIP_NEW_PREFETCHES_ONPATH_total_count,          5103
 
-FDIP_NEW_PREFETCHES_OFFPATH_count,          4140
-FDIP_NEW_PREFETCHES_OFFPATH_total_count,         12955
+FDIP_NEW_PREFETCHES_OFFPATH_count,          2371
+FDIP_NEW_PREFETCHES_OFFPATH_total_count,          9457
 
-FDIP_PREF_ICACHE_PROBE_HIT_ONPATH_count,       1560854
-FDIP_PREF_ICACHE_PROBE_HIT_ONPATH_total_count,       3129604
+FDIP_PREF_ICACHE_PROBE_HIT_ONPATH_count,       1498476
+FDIP_PREF_ICACHE_PROBE_HIT_ONPATH_total_count,       3001996
 
-FDIP_PREF_ICACHE_PROBE_HIT_OFFPATH_count,       5964751
-FDIP_PREF_ICACHE_PROBE_HIT_OFFPATH_total_count,      12517060
+FDIP_PREF_ICACHE_PROBE_HIT_OFFPATH_count,       2294006
+FDIP_PREF_ICACHE_PROBE_HIT_OFFPATH_total_count,       4959487
 
-FDIP_PREF_MSHR_PROBE_HIT_ONPATH_count,            54
-FDIP_PREF_MSHR_PROBE_HIT_ONPATH_total_count,           176
+FDIP_PREF_MSHR_PROBE_HIT_ONPATH_count,           257
+FDIP_PREF_MSHR_PROBE_HIT_ONPATH_total_count,           655
 
-FDIP_PREF_MSHR_PROBE_HIT_OFFPATH_count,          2151
-FDIP_PREF_MSHR_PROBE_HIT_OFFPATH_total_count,          6147
+FDIP_PREF_MSHR_PROBE_HIT_OFFPATH_count,           691
+FDIP_PREF_MSHR_PROBE_HIT_OFFPATH_total_count,          3849
 
 FDIP_PREF_FAILED_ONPATH_count,             0
-FDIP_PREF_FAILED_ONPATH_total_count,            11
+FDIP_PREF_FAILED_ONPATH_total_count,             8
 
 FDIP_PREF_FAILED_OFFPATH_count,             0
-FDIP_PREF_FAILED_OFFPATH_total_count,            14
+FDIP_PREF_FAILED_OFFPATH_total_count,            11
 
-FDIP_ATTEMPTED_PREF_ONPATH_count,       1563110
-FDIP_ATTEMPTED_PREF_ONPATH_total_count,       3134818
+FDIP_ATTEMPTED_PREF_ONPATH_count,       1501075
+FDIP_ATTEMPTED_PREF_ONPATH_total_count,       3007762
 
-FDIP_ATTEMPTED_PREF_OFFPATH_count,       5971042
-FDIP_ATTEMPTED_PREF_OFFPATH_total_count,      12547395
+FDIP_ATTEMPTED_PREF_OFFPATH_count,       2297068
+FDIP_ATTEMPTED_PREF_OFFPATH_total_count,       4986521
 
 FDIP_ALT_PATH_PREFETCHES_IC_EMITTED_count,             0
 FDIP_ALT_PATH_PREFETCHES_IC_EMITTED_total_count,             0
@@ -754,39 +754,39 @@ FDIP_ALT_PATH_PREFETCHES_UOC_EMITTED_ON_PATH_total_stddev,         -nan
 FDIP_ALT_PATH_PREFETCHES_UOC_TRIGGERED_count,             0
 FDIP_ALT_PATH_PREFETCHES_UOC_TRIGGERED_total_count,             0
 
-FDIP_BREAK_REACH_FTQ_END_count,       4891062
-FDIP_BREAK_REACH_FTQ_END_pct,       61.651
-FDIP_BREAK_REACH_FTQ_END_total_count,       9876603
-FDIP_BREAK_REACH_FTQ_END_total_pct,       60.693
+FDIP_BREAK_REACH_FTQ_END_count,       4551648
+FDIP_BREAK_REACH_FTQ_END_pct,       79.666
+FDIP_BREAK_REACH_FTQ_END_total_count,       9168668
+FDIP_BREAK_REACH_FTQ_END_total_pct,       78.285
 
-FDIP_BREAK_FTQ_EMPTY_count,            21
-FDIP_BREAK_FTQ_EMPTY_pct,        0.000
-FDIP_BREAK_FTQ_EMPTY_total_count,            21
+FDIP_BREAK_FTQ_EMPTY_count,            47
+FDIP_BREAK_FTQ_EMPTY_pct,        0.001
+FDIP_BREAK_FTQ_EMPTY_total_count,            47
 FDIP_BREAK_FTQ_EMPTY_total_pct,        0.000
 
-FDIP_BREAK_MAX_FTQ_ENTRY_CYC_count,       3042352
-FDIP_BREAK_MAX_FTQ_ENTRY_CYC_pct,       38.348
-FDIP_BREAK_MAX_FTQ_ENTRY_CYC_total_count,       6385162
-FDIP_BREAK_MAX_FTQ_ENTRY_CYC_total_pct,       39.238
+FDIP_BREAK_MAX_FTQ_ENTRY_CYC_count,       1161741
+FDIP_BREAK_MAX_FTQ_ENTRY_CYC_pct,       20.333
+FDIP_BREAK_MAX_FTQ_ENTRY_CYC_total_count,       2529518
+FDIP_BREAK_MAX_FTQ_ENTRY_CYC_total_pct,       21.598
 
 FDIP_BREAK_FULL_MEM_REQ_BUF_count,             0
 FDIP_BREAK_FULL_MEM_REQ_BUF_pct,        0.000
-FDIP_BREAK_FULL_MEM_REQ_BUF_total_count,         11219
-FDIP_BREAK_FULL_MEM_REQ_BUF_total_pct,        0.069
-FDIP_BREAK_FULL_MEM_REQ_BUF_sum_count,       7933435
+FDIP_BREAK_FULL_MEM_REQ_BUF_total_count,         13717
+FDIP_BREAK_FULL_MEM_REQ_BUF_total_pct,        0.117
+FDIP_BREAK_FULL_MEM_REQ_BUF_sum_count,       5713436
 FDIP_BREAK_FULL_MEM_REQ_BUF_sum_pct,      100.000
-FDIP_BREAK_FULL_MEM_REQ_BUF_sum_total_count,      16273005
+FDIP_BREAK_FULL_MEM_REQ_BUF_sum_total_count,      11711950
 FDIP_BREAK_FULL_MEM_REQ_BUF_sum_total_pct,      100.000
-FDIP_BREAK_FULL_MEM_REQ_BUF_mean,         0.77
-FDIP_BREAK_FULL_MEM_REQ_BUF_stddev,         0.76
-FDIP_BREAK_FULL_MEM_REQ_BUF_total_mean,         0.79
-FDIP_BREAK_FULL_MEM_REQ_BUF_total_stddev,         0.76
+FDIP_BREAK_FULL_MEM_REQ_BUF_mean,         0.41
+FDIP_BREAK_FULL_MEM_REQ_BUF_stddev,         0.72
+FDIP_BREAK_FULL_MEM_REQ_BUF_total_mean,         0.44
+FDIP_BREAK_FULL_MEM_REQ_BUF_total_stddev,         0.73
 
 FDIP_CYCLE_COUNT_count,             0
 FDIP_CYCLE_COUNT_total_count,             0
 
-ICACHE_USEFUL_FETCHES_count,             5
-ICACHE_USEFUL_FETCHES_total_count,           133
+ICACHE_USEFUL_FETCHES_count,             2
+ICACHE_USEFUL_FETCHES_total_count,           114
 
 USEFUL_CACHELINES_RETIRED_count,             0
 USEFUL_CACHELINES_RETIRED_total_count,             0
@@ -794,8 +794,8 @@ USEFUL_CACHELINES_RETIRED_total_count,             0
 ICACHE_UNUSEFUL_FETCHES_count,             0
 ICACHE_UNUSEFUL_FETCHES_total_count,             0
 
-UNIQUE_MISSED_LINES_count,             5
-UNIQUE_MISSED_LINES_total_count,           133
+UNIQUE_MISSED_LINES_count,             2
+UNIQUE_MISSED_LINES_total_count,           114
 
 UNIQUE_HIT_LINES_count,             0
 UNIQUE_HIT_LINES_total_count,             0
@@ -917,17 +917,17 @@ FDIP_BLOOM_4INSERT_total_count,             0
 FDIP_BLOOM_NOSTREAM_count,             0
 FDIP_BLOOM_NOSTREAM_total_count,             0
 
-FDIP_AVG_FTQ_OCCUPANCY_OPS_count,           220
-FDIP_AVG_FTQ_OCCUPANCY_OPS_total_count,           220
+FDIP_AVG_FTQ_OCCUPANCY_OPS_count,           222
+FDIP_AVG_FTQ_OCCUPANCY_OPS_total_count,           222
 
-FDIP_AVG_FTQ_OCCUPANCY_count,            19
-FDIP_AVG_FTQ_OCCUPANCY_total_count,            19
+FDIP_AVG_FTQ_OCCUPANCY_count,            24
+FDIP_AVG_FTQ_OCCUPANCY_total_count,            24
 
-FDIP_FTQ_OCCUPANCY_OPS_ACCUMULATED_count,    1733981278
-FDIP_FTQ_OCCUPANCY_OPS_ACCUMULATED_total_count,    3581066350
+FDIP_FTQ_OCCUPANCY_OPS_ACCUMULATED_count,    1264978622
+FDIP_FTQ_OCCUPANCY_OPS_ACCUMULATED_total_count,    2607147910
 
-FDIP_FTQ_OCCUPANCY_BLOCKS_ACCUMULATED_count,     153731805
-FDIP_FTQ_OCCUPANCY_BLOCKS_ACCUMULATED_total_count,     310007448
+FDIP_FTQ_OCCUPANCY_BLOCKS_ACCUMULATED_count,     144223916
+FDIP_FTQ_OCCUPANCY_BLOCKS_ACCUMULATED_total_count,     290210261
 
 FDIP_TRAINING_SAMPLE_count,             0
 FDIP_TRAINING_SAMPLE_total_count,             0
@@ -1304,10 +1304,10 @@ FDIP_ON_CONF_OFF_NUM_CONF_3_BR_total_stddev,         -nan
 FDIP_BTB_NUM_CYCLES_OFF_PATH_EVENT_count,             0
 FDIP_BTB_NUM_CYCLES_OFF_PATH_EVENT_total_count,             0
 
-FDIP_BP_CONF_0_MISPRED_count,        604953
-FDIP_BP_CONF_0_MISPRED_pct,        7.456
-FDIP_BP_CONF_0_MISPRED_total_count,       1279601
-FDIP_BP_CONF_0_MISPRED_total_pct,        7.589
+FDIP_BP_CONF_0_MISPRED_count,        198906
+FDIP_BP_CONF_0_MISPRED_pct,        4.684
+FDIP_BP_CONF_0_MISPRED_total_count,        443333
+FDIP_BP_CONF_0_MISPRED_total_pct,        4.962
 
 FDIP_BP_CONF_1_MISPRED_count,             0
 FDIP_BP_CONF_1_MISPRED_pct,        0.000
@@ -1324,10 +1324,10 @@ FDIP_BP_CONF_3_MISPRED_pct,        0.000
 FDIP_BP_CONF_3_MISPRED_total_count,             0
 FDIP_BP_CONF_3_MISPRED_total_pct,        0.000
 
-FDIP_BP_CONF_0_CORRECT_count,       7508296
-FDIP_BP_CONF_0_CORRECT_pct,       92.544
-FDIP_BP_CONF_0_CORRECT_total_count,      15581779
-FDIP_BP_CONF_0_CORRECT_total_pct,       92.411
+FDIP_BP_CONF_0_CORRECT_count,       4047199
+FDIP_BP_CONF_0_CORRECT_pct,       95.316
+FDIP_BP_CONF_0_CORRECT_total_count,       8491782
+FDIP_BP_CONF_0_CORRECT_total_pct,       95.038
 
 FDIP_BP_CONF_1_CORRECT_count,             0
 FDIP_BP_CONF_1_CORRECT_pct,        0.000
@@ -1343,14 +1343,14 @@ FDIP_BP_CONF_3_CORRECT_count,             0
 FDIP_BP_CONF_3_CORRECT_pct,        0.000
 FDIP_BP_CONF_3_CORRECT_total_count,             0
 FDIP_BP_CONF_3_CORRECT_total_pct,        0.000
-FDIP_BP_CONF_3_CORRECT_sum_count,       8113249
+FDIP_BP_CONF_3_CORRECT_sum_count,       4246105
 FDIP_BP_CONF_3_CORRECT_sum_pct,      100.000
-FDIP_BP_CONF_3_CORRECT_sum_total_count,      16861380
+FDIP_BP_CONF_3_CORRECT_sum_total_count,       8935115
 FDIP_BP_CONF_3_CORRECT_sum_total_pct,      100.000
-FDIP_BP_CONF_3_CORRECT_mean,         3.70
-FDIP_BP_CONF_3_CORRECT_stddev,         0.29
-FDIP_BP_CONF_3_CORRECT_total_mean,         3.70
-FDIP_BP_CONF_3_CORRECT_total_stddev,         0.29
+FDIP_BP_CONF_3_CORRECT_mean,         3.81
+FDIP_BP_CONF_3_CORRECT_stddev,         0.18
+FDIP_BP_CONF_3_CORRECT_total_mean,         3.80
+FDIP_BP_CONF_3_CORRECT_total_stddev,         0.19
 
 FDIP_ON_CONF_OFF_BTB_MISS_BP_TAKEN_CONF_0_count,             0
 FDIP_ON_CONF_OFF_BTB_MISS_BP_TAKEN_CONF_0_pct,         -nan
@@ -1466,27 +1466,27 @@ FDIP_ON_CONF_OFF_INV_CONF_INC_EMITTED_stddev,         -nan
 FDIP_ON_CONF_OFF_INV_CONF_INC_EMITTED_total_mean,         -nan
 FDIP_ON_CONF_OFF_INV_CONF_INC_EMITTED_total_stddev,         -nan
 
-ICACHE_FIRST_MISS_AFTER_WARMUP_SEEN_DURING_WARMUP_count,             5
+ICACHE_FIRST_MISS_AFTER_WARMUP_SEEN_DURING_WARMUP_count,             2
 ICACHE_FIRST_MISS_AFTER_WARMUP_SEEN_DURING_WARMUP_pct,      100.000
-ICACHE_FIRST_MISS_AFTER_WARMUP_SEEN_DURING_WARMUP_total_count,             5
+ICACHE_FIRST_MISS_AFTER_WARMUP_SEEN_DURING_WARMUP_total_count,             2
 ICACHE_FIRST_MISS_AFTER_WARMUP_SEEN_DURING_WARMUP_total_pct,      100.000
 
 ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_count,             0
 ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_pct,        0.000
 ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_total_count,             0
 ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_total_pct,        0.000
-ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_sum_count,             5
+ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_sum_count,             2
 ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_sum_pct,      100.000
-ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_sum_total_count,             5
+ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_sum_total_count,             2
 ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_sum_total_pct,      100.000
 ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_mean,         0.00
 ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_stddev,         0.00
 ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_total_mean,         0.00
 ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP_total_stddev,         0.00
 
-ICACHE_FIRST_MISS_AFTER_WARMUP_NO_PREF_DURING_WARMUP_count,             5
+ICACHE_FIRST_MISS_AFTER_WARMUP_NO_PREF_DURING_WARMUP_count,             2
 ICACHE_FIRST_MISS_AFTER_WARMUP_NO_PREF_DURING_WARMUP_pct,      100.000
-ICACHE_FIRST_MISS_AFTER_WARMUP_NO_PREF_DURING_WARMUP_total_count,             5
+ICACHE_FIRST_MISS_AFTER_WARMUP_NO_PREF_DURING_WARMUP_total_count,             2
 ICACHE_FIRST_MISS_AFTER_WARMUP_NO_PREF_DURING_WARMUP_total_pct,      100.000
 
 ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_UNUSEFUL_DURING_WARMUP_count,             0
@@ -1498,9 +1498,9 @@ ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP_count,             0
 ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP_pct,        0.000
 ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP_total_count,             0
 ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP_total_pct,        0.000
-ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP_sum_count,             5
+ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP_sum_count,             2
 ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP_sum_pct,      100.000
-ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP_sum_total_count,             5
+ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP_sum_total_count,             2
 ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP_sum_total_pct,      100.000
 ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP_mean,         0.00
 ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP_stddev,         0.00
@@ -1510,33 +1510,33 @@ ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP_total_stddev,       
 FDIP_PREFETCH_EVICT_NO_HIT_ONLY_ONCE_count,             0
 FDIP_PREFETCH_EVICT_NO_HIT_ONLY_ONCE_total_count,             0
 
-FDIP_PREFETCH_HIT_ICACHE_count,       7525605
-FDIP_PREFETCH_HIT_ICACHE_pct,       99.887
-FDIP_PREFETCH_HIT_ICACHE_total_count,      15646664
-FDIP_PREFETCH_HIT_ICACHE_total_pct,       99.773
+FDIP_PREFETCH_HIT_ICACHE_count,       3792482
+FDIP_PREFETCH_HIT_ICACHE_pct,       99.851
+FDIP_PREFETCH_HIT_ICACHE_total_count,       7961483
+FDIP_PREFETCH_HIT_ICACHE_total_pct,       99.590
 
-FDIP_PREFETCH_HIT_MLC_count,          8493
-FDIP_PREFETCH_HIT_MLC_pct,        0.113
-FDIP_PREFETCH_HIT_MLC_total_count,         21023
-FDIP_PREFETCH_HIT_MLC_total_pct,        0.134
+FDIP_PREFETCH_HIT_MLC_count,          5607
+FDIP_PREFETCH_HIT_MLC_pct,        0.148
+FDIP_PREFETCH_HIT_MLC_total_count,         15542
+FDIP_PREFETCH_HIT_MLC_total_pct,        0.194
 
-FDIP_PREFETCH_HIT_L1_count,             8
-FDIP_PREFETCH_HIT_L1_pct,        0.000
-FDIP_PREFETCH_HIT_L1_total_count,            68
+FDIP_PREFETCH_HIT_L1_count,            21
+FDIP_PREFETCH_HIT_L1_pct,        0.001
+FDIP_PREFETCH_HIT_L1_total_count,            36
 FDIP_PREFETCH_HIT_L1_total_pct,        0.000
 
-FDIP_PREFETCH_HIT_DRAM_count,            46
+FDIP_PREFETCH_HIT_DRAM_count,            33
 FDIP_PREFETCH_HIT_DRAM_pct,        0.001
-FDIP_PREFETCH_HIT_DRAM_total_count,         14458
-FDIP_PREFETCH_HIT_DRAM_total_pct,        0.092
-FDIP_PREFETCH_HIT_DRAM_sum_count,       7534152
+FDIP_PREFETCH_HIT_DRAM_total_count,         17222
+FDIP_PREFETCH_HIT_DRAM_total_pct,        0.215
+FDIP_PREFETCH_HIT_DRAM_sum_count,       3798143
 FDIP_PREFETCH_HIT_DRAM_sum_pct,      100.000
-FDIP_PREFETCH_HIT_DRAM_sum_total_count,      15682213
+FDIP_PREFETCH_HIT_DRAM_sum_total_count,       7994283
 FDIP_PREFETCH_HIT_DRAM_sum_total_pct,      100.000
 FDIP_PREFETCH_HIT_DRAM_mean,         0.00
-FDIP_PREFETCH_HIT_DRAM_stddev,         0.03
-FDIP_PREFETCH_HIT_DRAM_total_mean,         0.00
-FDIP_PREFETCH_HIT_DRAM_total_stddev,         0.10
+FDIP_PREFETCH_HIT_DRAM_stddev,         0.04
+FDIP_PREFETCH_HIT_DRAM_total_mean,         0.01
+FDIP_PREFETCH_HIT_DRAM_total_stddev,         0.15
 
 FDIP_MEM_BUF_MISS_count,             0
 FDIP_MEM_BUF_MISS_pct,         -nan

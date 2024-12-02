@@ -344,7 +344,7 @@ cf_type,addr,target
 3,7ffff300c2b1,7ffff30a3060
 7,7ffff300dea5,7ffff3087533
 2,7ffff300c293,7ffff300c2af
-2,7ffff302c29d,7ffff302c29f
+2,7ffff302c29d,7ffff302c2c0
 2,7ffff302c283,7ffff302c29f
 3,7ffff302c2c0,7ffff3089420
 7,7ffff300da85,7ffff3087533
@@ -397,7 +397,7 @@ cf_type,addr,target
 2,7ffff302bca3,7ffff302bcd0
 2,7ffff30a30a8,0
 2,7ffff302bcec,0
-2,7ffff302bcd3,7ffff302bcd5
+2,7ffff302bcd3,7ffff302bd08
 2,7ffff30a30d6,0
 2,7ffff302bcdb,0
 2,7ffff302bc9a,0
@@ -405,7 +405,7 @@ cf_type,addr,target
 2,7ffff30a30c1,0
 2,7ffff302bc80,7ffff302bc88
 2,7ffff30a308a,0
-2,7ffff308a3f4,7ffff308a400
+2,7ffff308a3f4,7ffff308a3f6
 7,7ffff302bf13,7ffff3087533
 7,7ffff302ba9a,7ffff3087533
 7,7ffff302ba1b,7ffff3087533

@@ -2,9 +2,9 @@
 ####################################################################################################
 Core 0
 ####################################################################################################
-Cumulative:        Cycles: 16108510              Instructions: 20000000              IPC: 1.24158
+Cumulative:        Cycles: 16487624              Instructions: 20000000              IPC: 1.21303
 
-Periodic:          Cycles: 7924367               Instructions: 9999998               IPC: 1.26193
+Periodic:          Cycles: 8196419               Instructions: 9999998               IPC: 1.22004
 
 PREF_DL0REQ_QUEUE_HIT_BY_DEMAND                      0                              0              
 
@@ -28,11 +28,11 @@ PREF_L1Q_STALL                                       0                          
 
 PREF_UMLC_REQ_SEND_QUEUE_STALL                       0                              0              
 
-PREF_UL1REQ_SEND_QUEUE_STALL                         0                           1774              
+PREF_UL1REQ_SEND_QUEUE_STALL                         0                           1230              
 
 PREF_UMLC_REQ_QUEUE_SENTREQ                          0                              0              
 
-PREF_UL1REQ_QUEUE_SENTREQ                         9752                          19686              
+PREF_UL1REQ_QUEUE_SENTREQ                         9716                          19643              
 
 PREF_NEWREQ_MATCHED                                  1                              3              
 
@@ -42,41 +42,41 @@ PREF_UL1REQ_QUEUE_MATCHED_REQ                       42                          
 
 PREF_DL0REQ_QUEUE_MATCHED_REQ                        0                              0              
 
-L1_PREF_HIT                                       2787                           5519              
+L1_PREF_HIT                                       2776                           5508              
 
-L1_PREF_UNIQUE_HIT                                2752                           5481              
+L1_PREF_UNIQUE_HIT                                2741                           5470              
 
-L1_PREF_LATE                                         0                              5              
+L1_PREF_LATE                                         2                              4              
 
-L1_LATE_PREF_CYCLES                                  0                           3071              
+L1_LATE_PREF_CYCLES                               1507                           2311              
 
-L1_LATE_PREF_CYCLES_DIST_0                           0         -nan%                1       20.000%
-L1_LATE_PREF_CYCLES_DIST_100                         0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_200                         0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_300                         0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_400                         0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_500                         0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_600                         0         -nan%                1       20.000%
-L1_LATE_PREF_CYCLES_DIST_700                         0         -nan%                1       20.000%
-L1_LATE_PREF_CYCLES_DIST_800                         0         -nan%                2       40.000%
-L1_LATE_PREF_CYCLES_DIST_900                         0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_1000                        0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_1100                        0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_1200                        0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_1300                        0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_1400                        0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_1500                        0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_1600                        0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_1700                        0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_1800                        0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_1900                        0         -nan%                0        0.000%
-L1_LATE_PREF_CYCLES_DIST_2000                        0         -nan%                0        0.000%
-                                                     0         -nan%                5      100.000%
-                                                  -nan         -nan              5.80         1.67
+L1_LATE_PREF_CYCLES_DIST_0                           0        0.000%                1       25.000%
+L1_LATE_PREF_CYCLES_DIST_100                         0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_200                         0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_300                         0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_400                         0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_500                         0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_600                         0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_700                         2      100.000%                3       75.000%
+L1_LATE_PREF_CYCLES_DIST_800                         0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_900                         0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_1000                        0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_1100                        0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_1200                        0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_1300                        0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_1400                        0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_1500                        0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_1600                        0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_1700                        0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_1800                        0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_1900                        0        0.000%                0        0.000%
+L1_LATE_PREF_CYCLES_DIST_2000                        0        0.000%                0        0.000%
+                                                     2      100.000%                4      100.000%
+                                                  7.00         0.00              5.25         1.75
 
-MLC_PREF_HIT                                       855                           1788              
+MLC_PREF_HIT                                       792                           1814              
 
-MLC_PREF_UNIQUE_HIT                                  1                             46              
+MLC_PREF_UNIQUE_HIT                                  0                             48              
 
 MLC_PREF_LATE                                        0                              0              
 
@@ -167,7 +167,7 @@ PREF_TIMELY_10                                       2      100.000%            
                                                      2      100.000%                2      100.000%
                                                   9.00        12.73              9.00        12.73
 
-PREF_UNUSED_EVICT                                 4712                           6330              
+PREF_UNUSED_EVICT                                 4708                           6339              
 
 PREF_REGION_SENT                                     0                              0              
 
@@ -206,29 +206,29 @@ PREF_ACC4_LT_LP                                      0        0.000%            
                                                      2      100.000%                2      100.000%
                                                  13.00         0.00             13.00         0.00
 
-FDIP_DECIDE_PREF_ONPATH                        1570646                        3142647              
+FDIP_DECIDE_PREF_ONPATH                        1580680                        3162025              
 
-FDIP_DECIDE_PREF_OFFPATH                       6374677                       12928264              
+FDIP_DECIDE_PREF_OFFPATH                       6751137                       13585411              
 
-FDIP_NEW_PREFETCHES_ONPATH                        2014                           4494              
+FDIP_NEW_PREFETCHES_ONPATH                        2261                           4806              
 
-FDIP_NEW_PREFETCHES_OFFPATH                       4429                          12510              
+FDIP_NEW_PREFETCHES_OFFPATH                       4169                          11698              
 
-FDIP_PREF_ICACHE_PROBE_HIT_ONPATH              1568575                        3138006              
+FDIP_PREF_ICACHE_PROBE_HIT_ONPATH              1578360                        3157061              
 
-FDIP_PREF_ICACHE_PROBE_HIT_OFFPATH             6368219                       12909673              
+FDIP_PREF_ICACHE_PROBE_HIT_OFFPATH             6744736                       13567223              
 
-FDIP_PREF_MSHR_PROBE_HIT_ONPATH                     57                            139              
+FDIP_PREF_MSHR_PROBE_HIT_ONPATH                     59                            146              
 
-FDIP_PREF_MSHR_PROBE_HIT_OFFPATH                  2029                           6069              
+FDIP_PREF_MSHR_PROBE_HIT_OFFPATH                  2232                           6478              
 
-FDIP_PREF_FAILED_ONPATH                              0                              8              
+FDIP_PREF_FAILED_ONPATH                              0                             12              
 
 FDIP_PREF_FAILED_OFFPATH                             0                             12              
 
-FDIP_ATTEMPTED_PREF_ONPATH                     1570646                        3142647              
+FDIP_ATTEMPTED_PREF_ONPATH                     1580680                        3162025              
 
-FDIP_ATTEMPTED_PREF_OFFPATH                    6374677                       12939617              
+FDIP_ATTEMPTED_PREF_OFFPATH                    6751137                       13597236              
 
 FDIP_ALT_PATH_PREFETCHES_IC_EMITTED                  0                              0              
 
@@ -241,22 +241,22 @@ FDIP_ALT_PATH_PREFETCHES_UOC_EMITTED_ON_PATH             0         -nan%        
 
 FDIP_ALT_PATH_PREFETCHES_UOC_TRIGGERED               0                              0              
 
-FDIP_BREAK_REACH_FTQ_END                       4637017       58.516%          9452048       58.677%
-FDIP_BREAK_FTQ_EMPTY                                21        0.000%               21        0.000%
-FDIP_BREAK_MAX_FTQ_ENTRY_CYC                   3287329       41.484%          6645088       41.252%
-FDIP_BREAK_FULL_MEM_REQ_BUF                          0        0.000%            11353        0.070%
-                                               7924367      100.000%         16108510      100.000%
-                                                  0.83         0.75              0.83         0.76
+FDIP_BREAK_REACH_FTQ_END                       4710541       57.471%          9467088       57.419%
+FDIP_BREAK_FTQ_EMPTY                                47        0.001%               47        0.000%
+FDIP_BREAK_MAX_FTQ_ENTRY_CYC                   3485831       42.529%          7008664       42.509%
+FDIP_BREAK_FULL_MEM_REQ_BUF                          0        0.000%            11825        0.072%
+                                               8196419      100.000%         16487624      100.000%
+                                                  0.85         0.75              0.85         0.75
 
 FDIP_CYCLE_COUNT                                     0                              0              
 
-ICACHE_USEFUL_FETCHES                                0                            121              
+ICACHE_USEFUL_FETCHES                                3                            129              
 
 USEFUL_CACHELINES_RETIRED                            0                              0              
 
 ICACHE_UNUSEFUL_FETCHES                              0                              0              
 
-UNIQUE_MISSED_LINES                                  0                            121              
+UNIQUE_MISSED_LINES                                  3                            129              
 
 UNIQUE_HIT_LINES                                     0                              0              
 
@@ -264,7 +264,7 @@ UNIQUE_PREFETCHED_LINES                              0                          
 
 FDIP_BTB_MISS_NT_RESTEER_ONPATH                      0                            189              
 
-FDIP_BTB_MISS_NT_RESTEER_OFFPATH                     0                            170              
+FDIP_BTB_MISS_NT_RESTEER_OFFPATH                     0                            119              
 
 FDIP_UTILITY_HASH_HIT                                0         -nan%                0         -nan%
 FDIP_UTILITY_HASH_MISS                               0         -nan%                0         -nan%
@@ -317,13 +317,13 @@ FDIP_BLOOM_4INSERT                                   0                          
 
 FDIP_BLOOM_NOSTREAM                                  0                              0              
 
-FDIP_AVG_FTQ_OCCUPANCY_OPS                         220                            220              
+FDIP_AVG_FTQ_OCCUPANCY_OPS                         218                            218              
 
 FDIP_AVG_FTQ_OCCUPANCY                              18                             18              
 
-FDIP_FTQ_OCCUPANCY_OPS_ACCUMULATED          1732019907                     3546638744              
+FDIP_FTQ_OCCUPANCY_OPS_ACCUMULATED          1770828739                     3595079544              
 
-FDIP_FTQ_OCCUPANCY_BLOCKS_ACCUMULATED        145613936                      296684183              
+FDIP_FTQ_OCCUPANCY_BLOCKS_ACCUMULATED        148126252                      297444260              
 
 FDIP_TRAINING_SAMPLE                                 0                              0              
 
@@ -428,16 +428,16 @@ FDIP_ON_CONF_OFF_NUM_CONF_3_BR                       0         -nan%            
 
 FDIP_BTB_NUM_CYCLES_OFF_PATH_EVENT                   0                              0              
 
-FDIP_BP_CONF_0_MISPRED                          608285        7.247%          1278276        7.506%
+FDIP_BP_CONF_0_MISPRED                          653836        7.475%          1329667        7.554%
 FDIP_BP_CONF_1_MISPRED                               0        0.000%                0        0.000%
 FDIP_BP_CONF_2_MISPRED                               0        0.000%                0        0.000%
 FDIP_BP_CONF_3_MISPRED                               0        0.000%                0        0.000%
-FDIP_BP_CONF_0_CORRECT                         7785633       92.753%         15751527       92.494%
+FDIP_BP_CONF_0_CORRECT                         8093592       92.525%         16273536       92.446%
 FDIP_BP_CONF_1_CORRECT                               0        0.000%                0        0.000%
 FDIP_BP_CONF_2_CORRECT                               0        0.000%                0        0.000%
 FDIP_BP_CONF_3_CORRECT                               0        0.000%                0        0.000%
-                                               8393918      100.000%         17029803      100.000%
-                                                  3.71         0.28              3.70         0.29
+                                               8747428      100.000%         17603203      100.000%
+                                                  3.70         0.29              3.70         0.29
 
 FDIP_ON_CONF_OFF_BTB_MISS_BP_TAKEN_CONF_0             0         -nan%                0         -nan%
 FDIP_ON_CONF_OFF_BTB_MISS_BP_TAKEN_CONF_1             0         -nan%                0         -nan%
@@ -466,24 +466,24 @@ FDIP_ON_CONF_OFF_INV_CONF_INC_EMITTED                0         -nan%            
                                                      0         -nan%                0         -nan%
                                                   -nan         -nan              -nan         -nan
 
-ICACHE_FIRST_MISS_AFTER_WARMUP_SEEN_DURING_WARMUP             0         -nan%                0         -nan%
-ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP             0         -nan%                0         -nan%
-                                                     0         -nan%                0         -nan%
-                                                  -nan         -nan              -nan         -nan
+ICACHE_FIRST_MISS_AFTER_WARMUP_SEEN_DURING_WARMUP             3      100.000%                3      100.000%
+ICACHE_FIRST_MISS_AFTER_WARMUP_NOT_SEEN_DURING_WARMUP             0        0.000%                0        0.000%
+                                                     3      100.000%                3      100.000%
+                                                  0.00         0.00              0.00         0.00
 
-ICACHE_FIRST_MISS_AFTER_WARMUP_NO_PREF_DURING_WARMUP             0         -nan%                0         -nan%
-ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_UNUSEFUL_DURING_WARMUP             0         -nan%                0         -nan%
-ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP             0         -nan%                0         -nan%
-                                                     0         -nan%                0         -nan%
-                                                  -nan         -nan              -nan         -nan
+ICACHE_FIRST_MISS_AFTER_WARMUP_NO_PREF_DURING_WARMUP             3      100.000%                3      100.000%
+ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_UNUSEFUL_DURING_WARMUP             0        0.000%                0        0.000%
+ICACHE_FIRST_MISS_AFTER_WARMUP_TRAINED_USEFUL_DURING_WARMUP             0        0.000%                0        0.000%
+                                                     3      100.000%                3      100.000%
+                                                  0.00         0.00              0.00         0.00
 
 FDIP_PREFETCH_EVICT_NO_HIT_ONLY_ONCE                 0                              0              
 
-FDIP_PREFETCH_HIT_ICACHE                       7936794       99.893%         16047679       99.785%
-FDIP_PREFETCH_HIT_MLC                             8520        0.107%            19820        0.123%
-FDIP_PREFETCH_HIT_L1                                 3        0.000%               19        0.000%
-FDIP_PREFETCH_HIT_DRAM                               6        0.000%            14746        0.092%
-                                               7945323      100.000%         16082264      100.000%
+FDIP_PREFETCH_HIT_ICACHE                       8323096       99.895%         16724284       99.791%
+FDIP_PREFETCH_HIT_MLC                             8678        0.104%            19811        0.118%
+FDIP_PREFETCH_HIT_L1                                25        0.000%               40        0.000%
+FDIP_PREFETCH_HIT_DRAM                              18        0.000%            15126        0.090%
+                                               8331817      100.000%         16759261      100.000%
                                                   0.00         0.03              0.00         0.10
 
 FDIP_MEM_BUF_MISS                                    0         -nan%                0         -nan%

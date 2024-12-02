@@ -1,10 +1,10 @@
 Core, 0
-Cumulative Cycles, 8234293             
+Cumulative Cycles, 6216462             
 Cumulative Instructions, 10000002            
-Cumulative IPC, 1.21443
-Periodic Cycles, 8234293             
+Cumulative IPC, 1.60863
+Periodic Cycles, 6216462             
 Periodic Instructions, 10000002            
-Periodic IPC, 1.21443
+Periodic IPC, 1.60863
 
 L2WAY_FILL_L1_count,             0
 L2WAY_FILL_L1_total_count,             0
